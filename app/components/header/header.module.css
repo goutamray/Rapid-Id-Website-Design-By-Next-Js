@@ -1,0 +1,68 @@
+
+.header{
+  padding: 20px 0px;
+  background-color: #fcfdfe;
+}
+.topPart{
+  display: flex;
+  align-items: center;
+}
+.leftPart1{
+  width: 20%;
+}
+.logo{
+  width: 160px;
+  max-height: 40px;
+}
+.logo img{
+  height: 40px;
+}
+
+/****** menu css ******/
+.leftPart2{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.menu ul li a{
+    padding: 0px 8px;
+    color: var(--primary-color);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/****** right menu  *******/
+.leftPart3 {
+     width: 30%;
+     display: flex;
+     justify-content: flex-end;
+}
+.leftPart3 .auth ul{
+   display: flex;
+   align-items: center;
+   gap: 15px;
+}
+.leftPart3 .auth ul li a.buttonRegister{
+    text-align: center;
+    color: #fff;
+    background-color: #064469;
+    border-radius: 5px;
+    min-width: 140px;
+    margin-bottom: 0;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+
+
+
+
+
+

@@ -1,3 +1,39 @@
 
+:root{
+  --primary-color : #064469 !important; 
+}
 
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
 
+.container{
+  max-width: 1200px;
+  margin: auto;
+}
+
+ul{
+  padding: 0px;
+  margin: 0px;
+}
+
+li{
+  list-style: none;
+  margin-bottom: 0px;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+p{
+  font-size: 14px;
+  font-weight: 500;
+  color: #064469 !important;
+}
