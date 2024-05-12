@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 147</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="3.77090567" cy="3.78184659" r="3.75"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-147">
+            <circle id="Oval" fill="#D0EAFF" fill-rule="nonzero" cx="10" cy="10" r="10"></circle>
+            <g id="Group-36" transform="translate(5.000000, 5.000000)">
+                <g id="Cyrpto-Copy-3">
+                    <g id="Group-46">
+                        <circle id="Oval-6" fill="#1F7BD7" cx="5" cy="5" r="5"></circle>
+                        <g id="Group-44" transform="translate(1.229094, 1.218153)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Oval-6-Copy" fill="#182F79" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Group-42" transform="translate(3.392857, 2.857143)" fill="#FFFFFF">
+                            <rect id="Rectangle-44" x="0" y="0.415832793" width="1" height="1"></rect>
+                            <rect id="Rectangle-44-Copy" x="0" y="3.32666234" width="1" height="1"></rect>
+                            <path d="M2.1745824,3.74415847 L0.49761611,3.74415847 L0.49761611,0.415832793 L2.12979695,0.415832793 C2.74186476,0.415832793 3.07526756,0.7950723 3.07526756,1.26413169 C3.07526756,1.67830115 2.80655486,1.96273078 2.49803287,2.0276007 C2.85631647,2.08249063 3.13995765,2.43678017 3.13995765,2.84096964 C3.13995765,3.35992897 2.8015787,3.74415847 2.1745824,3.74415847 Z M2.01534524,1.78808101 C2.30893875,1.78808101 2.47812823,1.61343124 2.47812823,1.35894157 C2.47812823,1.11443188 2.30893875,0.929802125 2.01534524,0.929802125 L1.07982696,0.929802125 L1.07982696,1.78808101 L2.01534524,1.78808101 Z M2.04022605,3.23018914 C2.3537242,3.23018914 2.54281832,3.05553936 2.54281832,2.76611974 C2.54281832,2.51662006 2.36865268,2.30205034 2.04022605,2.30205034 L1.07982696,2.30205034 L1.07982696,3.23018914 L2.04022605,3.23018914 Z" id="B"></path>
+                            <polygon id="Rectangle-24" points="0.829360183 0 1.24404027 0 1.24404027 0.498999351 0.829360183 0.498999351"></polygon>
+                            <polygon id="Rectangle-24-Copy-13" points="0.829360183 3.65932858 1.24404027 3.65932858 1.24404027 4.15832793 0.829360183 4.15832793"></polygon>
+                            <rect id="Rectangle-24-Copy-12" x="1.74165638" y="0" width="1" height="1"></rect>
+                            <polygon id="Rectangle-24-Copy-14" points="1.74165638 3.65932858 2.15633648 3.65932858 2.15633648 4.15832793 1.74165638 4.15832793"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

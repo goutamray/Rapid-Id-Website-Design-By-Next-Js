@@ -1,6 +1,7 @@
 
 :root{
   --primary-color : #064469 !important; 
+  --secondary-color : #d4d6e4 !important;
 }
 
 body{
@@ -35,5 +36,11 @@ img{
 p{
   font-size: 14px;
   font-weight: 500;
-  color: #064469 !important;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 0px;
+  margin: 0px;
+}
+
+
