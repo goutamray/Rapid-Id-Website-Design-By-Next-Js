@@ -4,6 +4,7 @@ import logo from "@/public/logo.svg"
 import Image from "next/image"
 import Link from "next/link"
 import styles from "./header.module.css"
+import Button from "../button/button"
 
 export default function Header() {
   return (
@@ -54,7 +55,7 @@ export default function Header() {
                            <Link href="/login"> Sign In </Link>
                         </li>
                         <li>
-                           <Link href="/register" className={styles.buttonRegister}> Get Started </Link>
+                          <Button /> 
                         </li>
                     </ul>
                   </div>

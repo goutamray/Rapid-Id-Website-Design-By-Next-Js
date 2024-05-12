@@ -1,0 +1,47 @@
+
+
+
+/***** passport box   *******/
+.passport_box{
+  padding: 90px 0px;
+
+}
+.passport_box .pass_content{
+  display: flex;
+  align-items: center;
+ 
+}
+.passport_box .pass_content .passContent_left{
+width: 50%;
+}
+.pass_content .passContent_left h4{
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+.pass_content .passContent_left h2{
+  font-size: 34px;
+  font-weight: 600;
+  width: 80%;
+  color: var(--primary-color);
+  line-height: 35px;
+  margin-bottom: 10px;
+}
+.pass_content .passContent_left p{
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primary-color);
+  width: 88%;
+  line-height: 24px;
+}
+
+
+
+.passport_box .pass_content .passContent_right{
+ width: 50%;
+}
+
+
+
