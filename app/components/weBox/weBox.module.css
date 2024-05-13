@@ -1,0 +1,18 @@
+
+.stand_box img{
+   width: 120px;
+   height: 80px;
+   margin-bottom: 10px;
+}
+.stand_box h4{
+   font-size: 16px;
+   font-weight: 700;
+   color: var(--primary-color);
+}
+
+.stand_box p{
+   font-size: 14px;
+   font-weight: 400;
+   color: var(--primary-color);
+}
+

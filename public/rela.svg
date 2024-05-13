@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="111px" height="120px" viewBox="0 0 111 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Reliability</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="129.15684%" id="linearGradient-1">
+            <stop stop-color="#F4FAFF" offset="0%"></stop>
+            <stop stop-color="#9DCEF8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="83.3409274%" y1="-64.999992%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#80B1F1" offset="0%"></stop>
+            <stop stop-color="#4979DF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="15.2523332%" y1="6.14617099%" x2="97.7101877%" y2="97.0554051%" id="linearGradient-3">
+            <stop stop-color="#2D5CDD" offset="0%"></stop>
+            <stop stop-color="#1D2F76" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="About-Us" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1165.000000, -1847.000000)" id="Reliability">
+            <g transform="translate(1165.000000, 1847.000000)">
+                <rect id="Rectangle-7" fill="url(#linearGradient-1)" fill-rule="nonzero" x="0" y="0" width="58" height="58" rx="2"></rect>
+                <rect id="Rectangle-7" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.5" x="59" y="73" width="47" height="47" rx="2"></rect>
+                <rect id="Rectangle-7" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.5" x="17" y="68" width="31" height="31" rx="2"></rect>
+                <rect id="Rectangle-7" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.5" x="80" y="16" width="31" height="31" rx="2"></rect>
+                <path d="M2,0 L56,0 C57.1045695,-2.02906125e-16 58,0.8954305 58,2 L58,9 L0,9 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="Rectangle-7" fill="url(#linearGradient-2)"></path>
+                <circle id="Oval-4" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="4.5" cy="4.5" r="1.5"></circle>
+                <circle id="Oval-4" fill="url(#linearGradient-1)" fill-rule="nonzero" cx="9.5" cy="4.5" r="1.5"></circle>
+                <g id="Group-23" transform="translate(24.000000, 10.000000)">
+                    <g id="Shield" transform="translate(0.758166, 0.669299)">
+                        <path d="M0,18.9173395 C0,18.9173395 12.8672397,12.6115596 38.6017192,0 C64.3361986,12.6115596 77.2034383,18.9173395 77.2034383,18.9173395 C77.2034383,55.354894 64.3361986,80.0735509 38.6017192,93.0733102 C12.8672397,80.392781 0,55.6741241 0,18.9173395 Z" id="Rectangle-26" fill="url(#linearGradient-3)"></path>
+                        <path d="M7.61876036,24.410684 C7.61876036,24.410684 17.9464133,19.3590924 38.6017192,9.2559093 C59.257025,19.3590924 69.584678,24.410684 69.584678,24.410684 C69.584678,53.6009902 59.257025,73.4032291 38.6017192,83.8174009 C17.9464133,73.6589659 7.61876036,53.856727 7.61876036,24.410684 Z M50.382574,34.0031649 L36.4100687,50.7337503 L28.318061,44.1651652 L24.5053442,48.9793867 L37.2303222,59.3087269 L55.0369063,37.9872407 L50.382574,34.0031649 Z" id="Combined-Shape" fill="url(#linearGradient-1)" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

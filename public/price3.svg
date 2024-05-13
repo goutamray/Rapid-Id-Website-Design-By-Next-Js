@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="45px" height="34px" viewBox="0 0 45 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>No minimum</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="85.5823797%" y2="101.978298%" id="linearGradient-1">
+            <stop stop-color="#D9EDFF" offset="0%"></stop>
+            <stop stop-color="#9DCEF8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="20.295881%" y1="5.49026908%" x2="100%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#2C59D6" offset="0%"></stop>
+            <stop stop-color="#1D2F76" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="27.4658203%" y1="27.9279436%" x2="86.0648019%" y2="85.3812081%" id="linearGradient-3">
+            <stop stop-color="#F4FAFF" offset="0%"></stop>
+            <stop stop-color="#9DCEF8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="About-Us" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1255.000000, -2318.000000)" id="No-minimum">
+            <g transform="translate(1255.000000, 2318.000000)">
+                <polygon id="Path-27" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.5" points="44.6196289 10.3806152 34.576416 0.392333984 0.436767578 23.6003418 10.4169922 33.6257324"></polygon>
+                <rect id="Rectangle-12" stroke="url(#linearGradient-2)" stroke-width="1.5" fill="#FFFFFF" fill-rule="nonzero" x="1" y="1" width="33" height="22"></rect>
+                <rect id="Rectangle-12" fill="#668EFF" x="1" y="6" width="33" height="5"></rect>
+                <rect id="Rectangle-12" stroke="url(#linearGradient-2)" stroke-width="1.5" fill-rule="nonzero" x="1" y="1" width="33" height="22"></rect>
+                <rect id="Rectangle-12" stroke="url(#linearGradient-2)" stroke-width="1.5" fill="url(#linearGradient-3)" fill-rule="nonzero" x="11" y="11" width="33" height="22"></rect>
+                <rect id="Rectangle-12" fill="#668EFF" x="11" y="16" width="33" height="5"></rect>
+                <circle id="Oval-6" fill="#668EFF" opacity="0.300000012" cx="31.5" cy="26.5" r="3.5"></circle>
+                <circle id="Oval-6" fill="#668EFF" opacity="0.300000012" cx="36.5" cy="26.5" r="3.5"></circle>
+                <rect id="Rectangle-12" stroke="url(#linearGradient-2)" stroke-width="1.5" fill-rule="nonzero" x="11" y="11" width="33" height="22"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

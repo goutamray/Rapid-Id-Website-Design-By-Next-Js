@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="36px" viewBox="0 0 33 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>No hosting</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="9.28238255%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#D9EDFF" stop-opacity="0.802932518" offset="0%"></stop>
+            <stop stop-color="#9DCEF8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="-137.406111%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#F4FAFF" offset="0%"></stop>
+            <stop stop-color="#9DCEF8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="15.5692922%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#F4FAFF" offset="0%"></stop>
+            <stop stop-color="#9DCEF8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="20.295881%" y1="5.49026908%" x2="100%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#2C59D6" offset="0%"></stop>
+            <stop stop-color="#1D2F76" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="About-Us" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-1529.000000, -2316.000000)" id="No-hosting">
+            <g transform="translate(1530.000000, 2317.000000)">
+                <polygon id="Path-7" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.5" points="4.94641113 29.5878906 4.94641113 21.97229 26.50354 21.97229 26.50354 29.5878906"></polygon>
+                <path d="M14.4765625,20.3203125 L16.8671875,20.3203125 L16.8671875,27.4921875 L14.4765625,27.4921875 L14.4765625,20.3203125 Z M12.484375,28.2890625 C13.1445279,28.2890625 13.6796875,28.8242221 13.6796875,29.484375 C13.6796875,30.1445279 13.1445279,30.6796875 12.484375,30.6796875 L6.109375,30.6796875 C5.44922213,30.6796875 4.9140625,30.1445279 4.9140625,29.484375 C4.9140625,28.8242221 5.44922213,28.2890625 6.109375,28.2890625 L12.484375,28.2890625 Z M25.234375,28.2890625 C25.8945279,28.2890625 26.4296875,28.8242221 26.4296875,29.484375 C26.4296875,30.1445279 25.8945279,30.6796875 25.234375,30.6796875 L18.859375,30.6796875 C18.1992221,30.6796875 17.6640625,30.1445279 17.6640625,29.484375 C17.6640625,28.8242221 18.1992221,28.2890625 18.859375,28.2890625 L25.234375,28.2890625 Z" id="Path" fill="url(#linearGradient-2)" fill-rule="nonzero"></path>
+                <path d="M24.3042416,6.52231308 C28.0327021,7.21337991 30.8125,10.4894161 30.8125,14.3724303 C30.8125,18.451377 27.7445001,21.8627538 23.640625,22.3125 L7.703125,22.3125 C3.59924988,21.8627538 0.53125,18.451377 0.53125,14.3724303 C0.53125,9.96340233 4.09860319,6.38849663 8.5,6.38849663 C8.55299543,6.38849663 8.60593203,6.38901604 8.65880453,6.39005351 C9.39970044,2.72118426 12.6375444,0 16.46875,0 C20.3455547,0 23.6152271,2.78646488 24.3042416,6.52231308 Z" id="Path" stroke="url(#linearGradient-4)" stroke-width="1.5" fill="url(#linearGradient-3)" fill-rule="nonzero"></path>
+                <circle id="Oval-8" fill="#668EFF" cx="10.5" cy="14.5" r="1.5"></circle>
+                <circle id="Oval-8" fill="#668EFF" cx="20.5" cy="14.5" r="1.5"></circle>
+                <circle id="Oval-8" fill="#668EFF" cx="15.5" cy="14.5" r="1.5"></circle>
+                <path d="M15.671875,33.46875 C13.4713654,33.46875 11.6875,31.6848846 11.6875,29.484375 C11.6875,27.2838654 13.4713654,25.5 15.671875,25.5 C17.8723846,25.5 19.65625,27.2838654 19.65625,29.484375 C19.65625,31.6848846 17.8723846,33.46875 15.671875,33.46875 Z" id="Path" stroke="url(#linearGradient-4)" stroke-width="1.5" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

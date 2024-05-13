@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="35px" height="38px" viewBox="0 0 35 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>No Licence Fees</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="85.5823797%" y2="101.978298%" id="linearGradient-1">
+            <stop stop-color="#D9EDFF" offset="0%"></stop>
+            <stop stop-color="#9DCEF8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="129.15684%" id="linearGradient-2">
+            <stop stop-color="#F4FAFF" offset="0%"></stop>
+            <stop stop-color="#9DCEF8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="20.295881%" y1="5.49026908%" x2="100%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#2C59D6" offset="0%"></stop>
+            <stop stop-color="#1D2F76" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="27.4658203%" y1="27.9279436%" x2="86.0648019%" y2="85.3812081%" id="linearGradient-4">
+            <stop stop-color="#F4FAFF" offset="0%"></stop>
+            <stop stop-color="#9DCEF8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="About-Us" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-731.000000, -2315.000000)" id="No-Licence-Fees">
+            <g transform="translate(732.000000, 2315.000000)">
+                <circle id="Oval-30" fill="url(#linearGradient-1)" fill-rule="nonzero" opacity="0.5" cx="17" cy="17" r="17"></circle>
+                <polygon id="path-118" stroke="url(#linearGradient-3)" stroke-width="1.5" fill="url(#linearGradient-2)" fill-rule="nonzero" transform="translate(25.675505, 29.761706) scale(-1, 1) rotate(-330.000000) translate(-25.675505, -29.761706) " points="31.0439259 25.8252557 31.0439259 34.2353899 25.6755048 32.4734351 20.3070837 34.2353899 20.3070837 25.2880215"></polygon>
+                <polygon id="path-118" stroke="url(#linearGradient-3)" stroke-width="1.5" fill="url(#linearGradient-2)" fill-rule="nonzero" transform="translate(7.780768, 29.761706) rotate(-330.000000) translate(-7.780768, -29.761706) " points="13.149189 25.8252557 13.149189 34.2353899 7.78076796 32.4734351 2.4123469 34.2353899 2.4123469 25.2880215"></polygon>
+                <circle id="Oval-30" stroke="url(#linearGradient-3)" stroke-width="1.5" fill="url(#linearGradient-4)" fill-rule="nonzero" cx="17" cy="17" r="14"></circle>
+                <circle id="Oval-30" stroke="url(#linearGradient-3)" stroke-width="1.5" fill="#FFFFFF" fill-rule="nonzero" cx="17" cy="17" r="10.25"></circle>
+                <polygon id="Star-2" fill="#668EFF" points="17 20 13.4732885 21.854102 14.1468305 17.927051 11.2936609 15.145898 15.2366442 14.572949 17 11 18.7633558 14.572949 22.7063391 15.145898 19.8531695 17.927051 20.5267115 21.854102"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
