@@ -1,0 +1,137 @@
+
+.contact{
+  background-image: url(../../public/contact.svg);
+  background-color: #f6fbff;
+  background-position: 78% 100%;
+  background-repeat: no-repeat;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 30vh;
+  display: flex;
+  position: relative;
+}
+
+.contact h2{
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--primary-color);
+  position: absolute;
+  left: 12%;
+  top: 20%;
+}
+
+/* form css */
+.contact_form{
+  padding: 80px 0px;
+}
+.contact_form .full_contact_form{
+  display: flex;
+
+}
+.contact_form .full_contact_form .contact_left{
+  width: 50%;
+}
+.contact_form .full_contact_form .contact_left h3{
+   font-size: 18px;
+   font-weight: 400;
+   color:#44465F;
+   margin-bottom: 10px;
+}
+.full_contact_form .contact_left .form_box{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 50px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+  display: block;
+  border-radius: 5px;
+}
+.full_contact_form .contact_left .form_box form button{
+    background-color: var(--primary-color);
+    padding: 15px 50px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.full_contact_form .contact_left .form_box form .my_2{
+  padding: 5px 0px;
+}
+.full_contact_form .contact_left .form_box form .my_2 span{
+  display: block;
+  width: 100%;
+}
+.full_contact_form .contact_left .form_box form .my_2 input{
+  display: block;
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid #bababa;
+}
+.full_contact_form .contact_left .form_box form .my_2 input:focus{
+  border: 1px solid rgb(57, 14, 211) !important;
+  outline: 1px;
+}
+.contact_left .form_box form .my_2 select {
+  display: block;
+  width: 103%;
+  padding: 10px 10px;
+ 
+}
+.contact_left .form_box form .my_2 select:focus{
+  border: 1px solid rgb(57, 14, 211) !important;
+  outline: 1px;
+}
+.contact_left .form_box form .my_2 textarea {
+  display: block;
+  width: 100%;
+  padding: 10px 10px;
+}
+.contact_left .form_box form .my_2 textarea:focus{
+  border: 1px solid rgb(57, 14, 211) !important;
+  outline: 1px;
+}
+
+
+.full_contact_form .contact_right{
+ width: 50%;
+ display: flex;
+ justify-content: center;
+ padding-left: 20px;
+}
+.full_contact_form .contact_right .contact_details{
+  border: 1px solid rgb(193, 193, 193);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.full_contact_form .contact_right .contact_details h2.heading{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.contact_details .mail_contact{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 5px 0px;
+}
+.contact_details .mail_contact h2{
+   font-size: 20px;
+   font-weight: 600;
+   color: var(--primary-color);
+}
+.contact_details .mail_contact span{
+   color: var(--primary-color);
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.map{
+  padding-top: 40px;
+}
