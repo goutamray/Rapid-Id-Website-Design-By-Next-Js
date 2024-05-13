@@ -1,3 +1,4 @@
+// import images 
 import rocket from "@/public/rocket.svg"
 import technology from "@/public/technology.svg"
 import calculator from "@/public/calculator.svg"
@@ -5,14 +6,12 @@ import aust from "@/public/aust.svg"
 import united from "@/public/united.svg"
 import hong from "@/public/hong.svg"
 import london from "@/public/london.svg"
-
 import scan  from "@/public/scan.svg"
 import effi  from "@/public/effi.svg"
 import lead  from "@/public/Leading.svg"
 import emp  from "@/public/emp.svg"
 import use  from "@/public/use.svg"
 import rela  from "@/public/rela.svg"
-
 import price1  from "@/public/price1.svg"
 import price2  from "@/public/price2.svg"
 import price3  from "@/public/price3.svg"
@@ -95,7 +94,7 @@ export default function About() {
             <div className={styles.rocket_image}>
                <Image src={aust} alt="rocket"/>
             </div>
-            <div className={styles.rocket_text}>
+            <div className={styles.rocket_text} style={{textAlign: "center"}}>
                  <h2> 100% </h2>
                  <h5> AUSTRALIAN OWNED, GLOBALLY OPERATED  </h5>
             </div>

@@ -1,0 +1,48 @@
+
+.faq_section{
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.heading h2{
+   font-size: 36px;
+   color: var(--primary-color);
+   font-weight: 700;
+   text-align: center;
+   margin-bottom: 25px;
+}
+
+.question_answer{
+   width: 85%;
+   margin: auto;
+   border-bottom: 1px solid rgb(222, 222, 222);
+   padding: 20px 0px;
+}
+
+.question_answer .topper button{
+  background: transparent;
+  width: 80%;
+  border: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.question_answer .topper button h4{
+   font-size: 22px;
+   font-weight: 700;
+   color: #333;
+}
+.question_answer .topper button svg{
+  color: #2aa8ff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.question_answer p{
+  width: 90%;
+  padding-left: 5%;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000;
+}
+
