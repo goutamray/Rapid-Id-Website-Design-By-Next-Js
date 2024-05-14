@@ -1,5 +1,90 @@
 
+.signUp{
+  padding: 20px 0px;
+}
+.signUp .signUp_form{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
+.signUp .signUp_form .logo{
+    width: 180px;
+}
+.signUp .signUp_form .form_data{
+   border: 1px solid rgb(195, 195, 195);
+   padding: 30px 40px;
+   border-radius: 5px;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+   margin-bottom: 20px;
+   width: 40%;
+}
 
+.signUp .signUp_form .form_data h3{
+  font-size: 25px;
+  font-weight: 600;
+  color:#515151;
+  text-align: center;
+}
+.signUp_form .form_data form .my_2 label{
+   font-size: 14px;
+   font-weight: 400;
+   color:#647181;
+   margin-bottom: 4px;
+}
+.signUp_form .form_data form .my_2{
+  padding: 5px 0px;
+}
+.signUp_form .form_data form .my_2 .name_box{
+ display: flex;
+ gap: 20px;
+ justify-content: space-between;
+ align-items: center;
+}
+.signUp_form .form_data form .my_2 input{
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid #bababa;
+  
+}
+.signUp_form .form_data form .my_2 input:focus{
+  border: 1px solid rgb(57, 14, 211) !important;
+  outline: 1px;
+}
+
+.signUp_form .form_data form .my_2 .first_name{
+  width: 46%;
+}
+.signUp_form .form_data form .my_2 select{
+  width: 103%;
+  padding: 10px 10px;
+  border: 1px solid #bababa;
+}
+.signUp_form .form_data form .my_2 select:focus{
+  border: 1px solid rgb(57, 14, 211) !important;
+  outline: 1px;
+}
+
+.signUp_form .form_data form .my_2 .last_name{
+  width: 46%;
+}
+
+.signUp_form .form_data .my_2 a{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  text-decoration: underline;
+}
+.signUp_form .form_data form button{
+   width: 103%;
+   background-color: var(--primary-color);
+   padding: 15px 20px;
+   border: none;
+   border-radius: 4px;
+   color: #fff;
+   margin-top: 20px;
+}
 
 

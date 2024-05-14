@@ -1,19 +1,17 @@
-
-.login{
+.forget{
   padding: 20px 0px;
 }
-.login .login_form{
+.forget .forget_form{
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
-
-.login .login_form .logo{
+.forget .forget_form .logo{
     width: 180px;
 }
-.login .login_form .form_data{
+.forget .forget_form .form_data{
    border: 1px solid rgb(195, 195, 195);
    padding: 50px 80px;
    border-radius: 5px;
@@ -21,43 +19,25 @@
    margin-bottom: 20px;
    width: 30%;
 }
-
-.login .login_form .form_data h3{
-  font-size: 25px;
-  font-weight: 600;
-  color:#515151;
-  text-align: center;
-}
-.login_form .form_data form .my_2 label{
+.forget_form .form_data form .my_2 label{
    font-size: 14px;
    font-weight: 400;
    color:#647181;
    margin-bottom: 4px;
 }
-.login_form .form_data form .my_2{
+.forget_form .form_data form .my_2{
   padding: 5px 0px;
 }
-.login_form .form_data form .my_2 input{
+.forget_form .form_data form .my_2 input{
   width: 100%;
   padding: 10px 10px;
   border: 1px solid #bababa;
-  
 }
-.login_form .form_data form .my_2 input:focus{
+.forget_form .form_data form .my_2 input:focus{
   border: 1px solid rgb(57, 14, 211) !important;
   outline: 1px;
 }
-
-.login_form .form_data form .my_2 a{
-   font-size: 14px;
-   color: var(--primary-color);
-   text-decoration: underline;
-}
-
-
-
-
-.login_form .form_data form button{
+.forget_form .form_data form button{
    width: 105%;
    background-color: var(--primary-color);
    padding: 15px 20px;
@@ -66,8 +46,11 @@
    color: #fff;
    margin-top: 20px;
 }
-
-
-
+ .form_data .my_2 a{
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  text-decoration: underline;
+}
 
 
