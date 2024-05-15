@@ -12,10 +12,6 @@
   padding-right: 5%;
   display: flex;
 }
-
-.top_bar{
-  
-}
 .top_bar h2{
    font-size: 46px;
    font-weight: 700;
@@ -34,7 +30,6 @@
   width: 50%;
   border-radius: 4px;
 }
-
 .subscribe input:focus{
   border: 1px solid rgb(57, 14, 211) !important;
   outline: 1px;
@@ -46,11 +41,73 @@
   padding: 15px 40px;
   color: #fff;
 }
-
 .top_bar p{
   text-align: center;
   font-size: 14px;
   color: var(--primary-color);
   font-weight: 600;
 }
+
+/***** blog details part csss *******/
+.our_blog{
+  padding: 50px 0px;
+}
+.our_blog .blog_title h2{
+   font-size: 25px;
+   color: var(--primary-color);
+   text-align: center;
+   padding: 30px 0px;
+}
+.our_blog .blog_details {
+   display: flex;
+   gap: 15px;
+   flex-wrap: wrap;
+}
+.our_blog .blog_details .single_blog{
+    width: 32%;
+    border: 1px solid rgb(193, 193, 193);
+    border-radius: 5px;
+}
+.our_blog .blog_details  .single_blog a img{
+   width: 100%;
+   height: 300px;
+   border-radius: 5px;
+   overflow: hidden; 
+}
+.our_blog .blog_details .single_blog .blog_data{
+  padding: 15px;
+}
+.our_blog .blog_details  .single_blog .blog_data h4{
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+
+}
+.our_blog .blog_details  .single_blog .blog_data h1.heading a.title_data{
+   font-size: 23px;
+   font-weight: 600;
+   color : var(--primary-color);
+   background-color: transparent;
+   padding: 0px !important;
+}
+.our_blog .blog_details .single_blog .blog_data p{
+  font-size: 14px;
+  color: var(--primary-color);
+  font-weight: 400;
+  margin-bottom: 20px;
+
+}
+.our_blog .blog_details .single_blog .blog_data a{
+  padding: 8px 30px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+
+
+
 

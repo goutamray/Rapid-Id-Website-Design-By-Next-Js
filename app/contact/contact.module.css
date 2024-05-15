@@ -11,7 +11,6 @@
   display: flex;
   position: relative;
 }
-
 .contact h2{
   font-size: 36px;
   font-weight: 600;
@@ -21,7 +20,7 @@
   top: 20%;
 }
 
-/* form css */
+/***** contact form css *******/
 .contact_form{
   padding: 80px 0px;
 }
@@ -93,8 +92,6 @@
   border: 1px solid rgb(57, 14, 211) !important;
   outline: 1px;
 }
-
-
 .full_contact_form .contact_right{
  width: 50%;
  display: flex;
@@ -106,7 +103,6 @@
   border-radius: 5px;
   padding: 20px;
 }
-
 .full_contact_form .contact_right .contact_details h2.heading{
   text-align: center;
   font-size: 25px;
@@ -114,7 +110,6 @@
   color: var(--primary-color);
   margin-bottom: 20px;
 }
-
 .contact_details .mail_contact{
   display: flex;
   align-items: center;
@@ -131,7 +126,6 @@
    font-size: 16px;
    font-weight: 400;
 }
-
 .map{
   padding-top: 40px;
 }

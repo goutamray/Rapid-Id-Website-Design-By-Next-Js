@@ -9,7 +9,6 @@
   justify-content: center;
   flex-direction: column;
 }
-
 .login .login_form .logo{
     width: 180px;
 }
@@ -21,7 +20,6 @@
    margin-bottom: 20px;
    width: 30%;
 }
-
 .login .login_form .form_data h3{
   font-size: 25px;
   font-weight: 600;
@@ -47,16 +45,11 @@
   border: 1px solid rgb(57, 14, 211) !important;
   outline: 1px;
 }
-
 .login_form .form_data form .my_2 a{
    font-size: 14px;
    color: var(--primary-color);
    text-decoration: underline;
 }
-
-
-
-
 .login_form .form_data form button{
    width: 105%;
    background-color: var(--primary-color);

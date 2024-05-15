@@ -4,6 +4,10 @@ import Image from "next/image"
 import Link from "next/link"
 import styles from "./footer.module.css"
 
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaSquareTwitter } from "react-icons/fa6";
+
 export default function Footer() {
   return (
     <>
@@ -19,6 +23,12 @@ export default function Footer() {
                         <div className={styles.description}>
                             <p> RapidID is a Gateway to a number of Government Document Verification Services DVS internationally. Get rapid access today. ISO Certified Protection. </p>
                         </div>
+                        <p> Follow us :
+                            <a href="#"> <span> <FaFacebook /> </span> </a>  
+                            <a href="#"> <span> <FaLinkedin /> </span>  </a>  
+                            <a href="#"> <span> <FaSquareTwitter /></span></a>  
+                            
+                        </p>
                     </div>
                 </div>
 

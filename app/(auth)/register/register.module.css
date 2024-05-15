@@ -9,7 +9,6 @@
   justify-content: center;
   flex-direction: column;
 }
-
 .signUp .signUp_form .logo{
     width: 180px;
 }
@@ -21,7 +20,6 @@
    margin-bottom: 20px;
    width: 40%;
 }
-
 .signUp .signUp_form .form_data h3{
   font-size: 25px;
   font-weight: 600;
@@ -47,13 +45,11 @@
   width: 100%;
   padding: 10px 10px;
   border: 1px solid #bababa;
-  
 }
 .signUp_form .form_data form .my_2 input:focus{
   border: 1px solid rgb(57, 14, 211) !important;
   outline: 1px;
 }
-
 .signUp_form .form_data form .my_2 .first_name{
   width: 46%;
 }
@@ -66,11 +62,9 @@
   border: 1px solid rgb(57, 14, 211) !important;
   outline: 1px;
 }
-
 .signUp_form .form_data form .my_2 .last_name{
   width: 46%;
 }
-
 .signUp_form .form_data .my_2 a{
   display: flex;
   justify-content: center;
