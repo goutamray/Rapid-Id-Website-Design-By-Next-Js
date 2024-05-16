@@ -15,7 +15,7 @@ export default function Register() {
     lastName : "",
     email : "",
     password : "",
-    number : "",
+    phone : "",
     country : ""
    }); 
 
@@ -63,7 +63,7 @@ export default function Register() {
                   </div>
                   <div className={styles.my_2}>
                     <label htmlFor="number"> Phone Number </label>
-                    <input type="text" id="number" name="number" value={input.number} onChange={handleInputChange}/>
+                    <input type="text" id="number" name="phone" value={input.phone} onChange={handleInputChange}/>
                   </div>
                   <div className={styles.my_2}>
                     <label htmlFor="pass"> Password </label>
