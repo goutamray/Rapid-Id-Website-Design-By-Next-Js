@@ -1,0 +1,27 @@
+
+/***** pricing csss ******/
+
+.top_part{
+  text-align: center;
+}
+
+
+.pricing_bottom{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.pricing_bottom .price_box{
+  width: 24%;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.pricing_bottom .price_box img{
+  width: 50px;
+}
+.pricing_bottom .price_box h6{
+font-size: 15px;
+font-weight: 600;
+color: var(--primary-color);
+}

@@ -57,7 +57,7 @@ export default function Footer() {
                             <li> <Link href="/medical"> Medical </Link> </li>
                             <li> <Link href="/education"> Education </Link> </li>
                             <li> <Link href="/crypto"> Crypto </Link> </li>
-                            <li> <Link href="/finance"> Finance </Link> </li>
+                             
                         </ul>
                     </div>
                 </div>

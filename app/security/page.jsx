@@ -22,6 +22,9 @@ import Link from "next/link"
 import WeBox from "../components/weBox/weBox"
 import ContentImage from "../components/contentImage/contentImage"
 import ImageContent from "../components/imageContent/imageContent"
+import WhatWe from "../components/whatWe/whatWe"
+import Pricing from "../components/pricing/pricing"
+import GetStarted from "../components/getStarted/getStarted"
 
 export default function Security() {
   return (
@@ -69,82 +72,13 @@ export default function Security() {
 
 
      {/* What we section start  */}
-    <div className={styles.what_we}>
-       <div className="container">
-          <div className={styles.top_part}>
-               <h2> What We Stand For </h2>
-               <p> We are creating a seamless connection between people and technology through ID verification. </p>
-          </div>
-          <div className={styles.we_bottom_part}>
-             <div className={styles.we_box_content}>
-                <WeBox icon={scan} title={"TRANSPARENCY"} desc={"We don’t collect data, so you can enjoy peace of mind knowing client’s personal data won’t be mined and used later."}/> 
-             </div>
-             <div className={styles.we_box_content}>
-                <WeBox icon={effi} title={"EFFICIENCY"} desc={"With access to more than 100+ billion identity records from around the world, we're able verify virtually any form of ID Document including passports, driver’s licenses & National ID's in real time."}/> 
-             </div>
-             <div className={styles.we_box_content}>
-                <WeBox icon={lead} title={"LEADING"} desc={"RapidID is among the most cost-effective options on the market, with no setup fees, no monthly licence fees, no minimum spend, just a simple PAYG model. "}/> 
-             </div>
-          </div>
-
-          <div className={styles.we_bottom_part}>
-             <div className={styles.we_box_content}>
-                <WeBox icon={emp} title={"EMPOWERMENT"} desc={"We're here to support your business with the right tools that are intuitive and easy-to-use, so that you can offer a seamless experience to your customers."}/> 
-             </div>
-             <div className={styles.we_box_content}>
-                <WeBox icon={rela} title={"SECURITY"} desc={"We take data protection & your privacy very seriously. The burden of a possible data breach is too much responsibility for any one company. We don't keep any sensitive personal information at all. Zero data. Zero risk of any data breach. "}/> 
-             </div>
-             <div className={styles.we_box_content}>
-                <WeBox icon={use} title={"EASE-OF-USE"} desc={"We've created a service that is easy to set-up and start using without instructions. Our web portal is simplistic by design, and our developers love working with the JSON RESTFUL API."}/> 
-             </div>
-          </div>
-
-       </div>
-    </div>
+       <WhatWe /> 
 
     {/* pricing section start*/}
-     <div className={styles.what_we}>
-       <div className="container">
-          <div className={styles.top_part}>
-               <h2> Pricing thats fair. </h2>
-               <p> We believe in providing the best service on the market at the best price. </p>
-          </div>
-          <div className={styles.pricing_bottom}>
-             <div className={styles.price_box}>
-                <Image src={price1} alt="price"/>
-                <h6> No Licence Fees </h6>
-             </div>
-             <div className={styles.price_box}>
-                <Image src={price2} alt="price"/>
-                <h6> No Implementation Fees </h6>
-             </div>
-             <div className={styles.price_box}>
-                <Image src={price3} alt="price"/>
-                <h6> No Minimum Spend </h6>
-             </div>
-             <div className={styles.price_box}>
-                <Image src={price4} alt="price"/>
-                <h6> No Hosting Fees </h6>
-             </div>
-          </div>
-
-          </div>
-     </div>
+      <Pricing /> 
 
      {/* get Started section */}
-     <div className={styles.get_started}>
-        <div className="container">
-            <div className={styles.all_get_start}>
-            <div className={styles.text_start}>
-                 <h2> Get Started Today </h2>
-            </div>
-            <div className={styles.text_end}>
-                <Button />
-                <Link href="/contact" className={styles.text_btn}> Book a Demo </Link>
-            </div>
-          </div>
-        </div>
-     </div>
+     <GetStarted />
     </>
   )
 }

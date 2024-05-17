@@ -1,0 +1,31 @@
+/***** get started css ******/
+.get_started{
+  background-color: #f6fbff;
+  padding-top: 50px;
+}
+.all_get_start{
+   background-image: url(../../../public/aaa.svg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   display: flex;
+   justify-content: space-between;
+   padding: 120px 0px;    
+}
+.all_get_start .text_start h2{
+    color: var(--primary-color);
+    font-size: 36px;
+    font-weight: 700;
+}
+.text_end{
+  display: flex;
+  gap: 20px;
+}
+.text_end a.text_btn{
+  padding: 10px 50px;
+  border-top: 1px solid #efefef;
+  border-left: 1px solid #efefef;
+  border-right: 1px solid #efefef;
+  border-bottom: 2px solid var(--primary-color);
+  border-radius: 5px;
+  background-color: #fff;
+}

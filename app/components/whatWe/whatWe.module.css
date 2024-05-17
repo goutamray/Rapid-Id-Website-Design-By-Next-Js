@@ -1,0 +1,44 @@
+
+/* we section  */
+.we_bottom_part{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+}
+.we_bottom_part .we_box_content{
+ width: 30%;
+ text-align: center;
+ padding: 0px 20px;
+}
+
+
+
+/****** webox section css ******/
+.what_we{
+  padding: 50px 0px;
+}
+
+.what_we .top_part{
+     text-align: center;
+}
+.what_we .top_part h2{
+   font-size: 32px;
+   font-weight: 700;
+   color: #333E4A;
+}
+.what_we .top_part p{
+   font-size: 16px;
+   font-weight: 400;
+   color: #333E4A;
+   margin-bottom: 10px;
+}
+.we_bottom_part{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+}
+.we_bottom_part .we_box_content{
+   width: 30%;
+   text-align: center;
+   padding: 0px 20px;
+}
