@@ -15,7 +15,7 @@ import GetStarted from "@/app/components/getStarted/getStarted";
 export default function Travel() {
   return (
     <>
-          <Banner title={"RapidID for Travel"}text={"Set the pace in this mobile-driven travel industry with RapidID’s all-in-one verification suite for digital identity verification of travelers every step of the way."} photo={travel}/> 
+      <Banner title={"RapidID for Travel"}text={"Set the pace in this mobile-driven travel industry with RapidID’s all-in-one verification suite for digital identity verification of travelers every step of the way."} photo={travel}/> 
 
        {/** passport box section start  */}
       <ImageContent image={okay} title={"DOCUMENT VERIFICATION"} details={"Increase Customer Convenience and Avoid Cart Abandonment"}
