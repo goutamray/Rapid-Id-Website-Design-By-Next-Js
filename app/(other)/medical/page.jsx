@@ -1,5 +1,5 @@
 // import images 
-import travel from "@/public/travel.svg"
+
 import okay  from "@/public/okay.svg"
 import phone  from "@/public/phone.svg"
 import man2  from "@/public/man2.svg"
