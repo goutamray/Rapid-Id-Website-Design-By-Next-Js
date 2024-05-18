@@ -1,8 +1,4 @@
 
-import Link from "next/link";
-import styles from "./page.module.css";
-import Image from "next/image";
-import Button from "./components/button/button";
 // import images 
 import building from "@/public/build.svg"
 import passPhoto  from "@/public/pass.svg"
@@ -10,15 +6,12 @@ import phone  from "@/public/phone.svg"
 import man2  from "@/public/man2.svg"
 import code  from "@/public/code.svg"
 
-
-
-
-
 import ImageContent from "./components/imageContent/imageContent";
 import ContentImage from "./components/contentImage/contentImage";
 import WhatWe from "./components/whatWe/whatWe";
 import Pricing from "./components/pricing/pricing";
 import GetStarted from "./components/getStarted/getStarted";
+import Banner from "./components/banner/banner";
 
 
 
@@ -27,27 +20,7 @@ export default function Home() {
   return (
    <>
      {/* real state section start  */}
-      <div className={styles.real_state}>
-        <div className="container"> 
-          <div className={styles.full_real_box}> 
-            <div className={styles.realState_left}>
-               <div className={styles.realDesc}>
-                   <h1> RapidID for Real Estate </h1>
-                   <p> A Multi-Factor Verification Suite for Real Estate Agencies and Property Management Professionals. Verify homeowners, buyers and renters in seconds with our simple web-portal or integrated solutions. Simplify customer transactions, while meeting your Anti-Money Laundering (AML) and Counter-Terrorism Financing (CTF) obligations (The AML/CTF Act). </p>
-                   <div className={styles.button_btn}>
-                       <Button />
-                       <Link href="/contact" className={styles.secondBtn}> Book a Demo  </Link>
-                   </div>
-               </div>
-           </div>
-            <div className={styles.realState_right}>
-               <div className={styles.realPhoto}>
-                   <Image src={building} alt="building"/>
-               </div>
-            </div>
-           </div>
-         </div>
-      </div>
+     <Banner title={"RapidID for Real Estate"}text={" A Multi-Factor Verification Suite for Real Estate Agencies and Property Management Professionals. Verify homeowners, buyers and renters in seconds with our simple web-portal or integrated solutions. Simplify customer transactions, while meeting your Anti-Money Laundering (AML) and Counter-Terrorism Financing (CTF) obligations (The AML/CTF Act)."} photo={building}/> 
 
 
       {/** passport box section start  */}

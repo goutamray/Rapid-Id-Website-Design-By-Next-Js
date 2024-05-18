@@ -15,9 +15,12 @@ import WhatWe from "../components/whatWe/whatWe"
 import Pricing from "../components/pricing/pricing"
 import GetStarted from "../components/getStarted/getStarted"
 
+
 export default function About() {
   return (
     <>
+      {/* banner section star */}
+
       <div className={styles.real_state}>
         <div className="container"> 
           <div className={styles.full_real_box}> 
