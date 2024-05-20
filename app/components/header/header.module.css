@@ -46,6 +46,7 @@
      width: 30%;
      display: flex;
      justify-content: flex-end;
+     padding-right: 50px;
 }
 .leftPart3 .auth ul{
    display: flex;
@@ -57,12 +58,16 @@
 
 /* responsive css */
 @media (min-width : 320px) and (max-width: 1020px){ 
-  .header{
-    display: none !important;
-  }
+
+
 }
 
 
 
 
+@media (min-width : 1020px) and (max-width: 1320px){
+  .header{
+     padding: 20px 30px;
+  }
+}
 

@@ -1,35 +1,100 @@
 
 /***** pricing csss ******/
+.what_we_price{
+  padding: 60px 0px;
+}
 
 .top_part{
   text-align: center;
 }
-
-
-.pricing_bottom{
+.top_part p{
+  padding: 10px 20px !important;
+}
+     
+.pricing_bottom_part{
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
 }
-.pricing_bottom .price_box{
+.pricing_bottom_part .price_box_ab{
   width: 24%;
   display: flex;
   gap: 5px;
   align-items: center;
 }
-.pricing_bottom .price_box img{
+.pricing_bottom_part .price_box_ab img{
   width: 50px;
 }
-.pricing_bottom .price_box h6{
+.pricing_bottom_part .price_box_ab h6{
 font-size: 15px;
 font-weight: 600;
 color: var(--primary-color);
 }
 
-@media (min-width : 320px) and (max-width: 1020px){
-  .pricing_bottom{
-    display: none;
+
+/****** responsive css *********/
+@media (min-width : 320px) and (max-width: 576px){
+ .pricing_bottom_part .price_box_ab{
+    width: 100% !important;
+    display: block;
+
+ }
+
+}
+@media (min-width : 320px) and (max-width: 576px){
+  .what_we_price{
+    padding: 40px 20px;
+  }
+
+  .pricing_bottom_part{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+
+  .pricing_bottom_part .price_box_ab{
+    width: 48% ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+ }
+}
+
+
+
+@media (min-width : 576px) and (max-width: 768px){
+  .pricing_bottom_part{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .pricing_bottom_part .price_box_ab{
+    width: 50% ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+ }
+}
+
+@media (min-width : 768px) and (max-width: 1020px){
+  .pricing_bottom_part .price_box_ab{
+    width: 23% ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+ }
+}
+
+@media (min-width : 1020px) and (max-width: 1320px){
+  .what_we_price{
+     padding: 40px 30px;
   }
 }
+
 
 

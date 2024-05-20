@@ -30,11 +30,50 @@
   background-color: #fff;
 }
 
-
-@media (min-width : 320px) and (max-width: 1020px){
-  .get_started{
-    display: none;
+/********** response css  **************/
+@media (min-width : 320px) and (max-width: 576px){
+  .all_get_start{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px !important;  
+  }
+  .all_get_start .text_start h2{
+    font-size: 25px;
+  }
+  .text_end{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 }
+
+@media (min-width : 576px) and (max-width: 768px){
+  .all_get_start{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}
+@media (min-width : 768px) and (max-width: 1020px){
+  .get_started{
+    padding: 20px 50px;
+  }
+  .all_get_start .text_start h2{
+    font-size: 28px;
+  }
+}
+
+@media (min-width : 1020px) and (max-width: 1320px){
+  .get_started{
+     padding: 40px 30px;
+  }
+}
+
 
 

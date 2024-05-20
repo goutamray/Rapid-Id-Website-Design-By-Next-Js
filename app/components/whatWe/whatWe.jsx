@@ -8,10 +8,10 @@ import rela  from "@/public/rela.svg"
 
 import styles from "./whatWe.module.css"
 
-export default function WhatWe() {
+export default function WhatWe() {    
   return (
     <>
-          <div className={styles.what_we}>
+      <div className={styles.what_we}>
        <div className="container">
           <div className={styles.top_part}>
                <h2> What We Stand For </h2>
@@ -27,9 +27,9 @@ export default function WhatWe() {
              <div className={styles.we_box_content}>
                 <WeBox icon={lead} title={"LEADING"} desc={"RapidID is among the most cost-effective options on the market, with no setup fees, no monthly licence fees, no minimum spend, just a simple PAYG model. "}/> 
              </div>
-          </div>
+      
 
-          <div className={styles.we_bottom_part}>
+
              <div className={styles.we_box_content}>
                 <WeBox icon={emp} title={"EMPOWERMENT"} desc={"We're here to support your business with the right tools that are intuitive and easy-to-use, so that you can offer a seamless experience to your customers."}/> 
              </div>
@@ -39,7 +39,7 @@ export default function WhatWe() {
              <div className={styles.we_box_content}>
                 <WeBox icon={use} title={"EASE-OF-USE"} desc={"We've created a service that is easy to set-up and start using without instructions. Our web portal is simplistic by design, and our developers love working with the JSON RESTFUL API."}/> 
              </div>
-          </div>
+         </div>
 
        </div>
     </div>
