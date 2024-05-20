@@ -25,3 +25,11 @@ font-size: 15px;
 font-weight: 600;
 color: var(--primary-color);
 }
+
+@media (min-width : 320px) and (max-width: 1020px){
+  .pricing_bottom{
+    display: none;
+  }
+}
+
+

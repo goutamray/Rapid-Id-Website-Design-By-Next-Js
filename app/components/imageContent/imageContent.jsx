@@ -19,7 +19,7 @@ export default function ImageContent({image, title, details, paragraph }) {
                     <Image src={image} alt="passPhoto"/>
                    </div>
                 </div>
-             </div>
+             </div>    
          </div>
       </div>
     </>

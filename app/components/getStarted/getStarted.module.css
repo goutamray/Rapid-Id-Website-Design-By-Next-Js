@@ -29,3 +29,12 @@
   border-radius: 5px;
   background-color: #fff;
 }
+
+
+@media (min-width : 320px) and (max-width: 1020px){
+  .get_started{
+    display: none;
+  }
+}
+
+

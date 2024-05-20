@@ -24,7 +24,6 @@
  .pass_content .passContent_left h2{
    font-size: 34px;
    font-weight: 600;
-   width: 80%;
    color: var(--primary-color);
    line-height: 35px;
    margin-bottom: 10px;
@@ -33,14 +32,56 @@
    font-size: 14px;
    font-weight: 500;
    color: var(--primary-color);
-   width: 88%;
+   padding: 0px 30px;
    line-height: 24px;
  }
  
  
- 
+
  .passport_box .pass_content .passContent_right{
   width: 50%;
   padding-right: 50px;
  }
+
+ /* responsive css  */
+
+@media (min-width : 320px) and (max-width: 576px){
+  .pass_content .passContent_left h2{
+    font-size: 22px;
+    text-align: center;
+  }
+}
+
+@media (min-width : 576px) and (max-width: 768px){
+    .pass_content .passContent_left h2{
+      font-size: 24px;
+      text-align: center;
+    }
+ 
+}
+
+@media (min-width : 320px) and (max-width: 768px){
+  .passport_box .pass_content{
+      display: flex;
+     flex-direction: column;
+  }
+  .passport_box .pass_content .passContent_left{
+    width: 100%;
+    display: block;
+    }
+ .passport_box .pass_content .passContent_right{
+    width: 50%;
+    padding-right: 50px;
+  }
+
+  .pass_content .passContent_left h4{
+    text-align: center;
+  }
+
+  .pass_content .passContent_left p{
+    text-align: center;
+  }
+}
+
+
 

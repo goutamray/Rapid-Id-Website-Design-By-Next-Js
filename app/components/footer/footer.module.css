@@ -101,3 +101,11 @@
   width: 180px;
   max-height: 50px;
 } 
+
+
+
+@media (min-width : 320px) and (max-width: 1020px){
+  .footer{
+    display: none;
+  }
+}

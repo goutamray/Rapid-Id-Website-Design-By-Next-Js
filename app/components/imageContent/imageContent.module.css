@@ -1,6 +1,4 @@
 
-
-
 /***** passport box   *******/
 .passport_box{
   padding: 90px 0px;
@@ -9,7 +7,6 @@
 .passport_box .pass_content{
   display: flex;
   align-items: center;
- 
 }
 .passport_box .pass_content .passContent_left{
 width: 50%;
@@ -24,16 +21,16 @@ width: 50%;
 .pass_content .passContent_left h2{
   font-size: 34px;
   font-weight: 600;
-  width: 80%;
   color: var(--primary-color);
   line-height: 35px;
   margin-bottom: 10px;
+  padding-right: 30px;
 }
 .pass_content .passContent_left p{
   font-size: 14px;
   font-weight: 500;
   color: var(--primary-color);
-  width: 88%;
+  padding: 0px 30px;
   line-height: 24px;
 }
 
@@ -43,5 +40,60 @@ width: 50%;
  width: 50%;
 }
 
+/******* responsive css *********/
+@media (min-width : 320px) and (max-width: 450px){
+  .pass_content .passContent_left h2{
+    font-size: 18px;
+    width: 100%;
+    padding: 0px 20px !important;
 
+  }
+}
+@media (min-width : 320px) and (max-width: 576px){
+  .pass_content .passContent_left h2{
+    font-size: 22px;
+    width: 100%;
+    padding: 0px 20px !important;
+    
+  }
+}
+@media (min-width : 320px) and (max-width: 768px){
+  .passport_box .pass_content{
+    display: block;
+    align-items: center;
+  }
+
+  .passport_box .pass_content .passContent_left{
+    width: 100% !important;
+    display: block;
+    text-align: center;
+    padding: 0px 20px;
+  }
+  .passport_box .pass_content .passContent_right{
+    width: 100%;
+    display: block !important;
+   }
+
+   .pass_content .passContent_left h4{
+    font-size: 16px;
+  }
+  .pass_content .passContent_left h2{
+    font-size: 27px;
+    width: 100%;
+  }
+  .pass_content .passContent_left p{
+     padding: 0px 20px;
+     margin: auto;
+  }
+
+  .passContent_right .pass_photo {
+     padding: 30px;
+  }
+}
+@media (min-width : 576px) and (max-width: 768px){
+
+}
+@media (min-width : 768px) and (max-width: 1020px){
+
+}
 
