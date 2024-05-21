@@ -5,13 +5,17 @@ import ImageContent from "@/app/components/imageContent/imageContent";
 import Pricing from "@/app/components/pricing/pricing";
 import WhatWe from "@/app/components/whatWe/whatWe";
 
-
-import okay  from "@/public/okay.svg"
 import phone  from "@/public/phone.svg"
 import man2  from "@/public/man2.svg"
 import code  from "@/public/code.svg"
 import educate from "@/public/educate.svg"
 import acal from "@/public/acal.svg"
+
+
+export const metadata = {
+  title: 'Education',
+  description: 'Rapid Api',
+}
 
 
 

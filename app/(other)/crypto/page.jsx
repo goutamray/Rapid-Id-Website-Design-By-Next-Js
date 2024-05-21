@@ -13,6 +13,13 @@ import Banner from "@/app/components/banner/banner"
 import ImageContent from "@/app/components/imageContent/imageContent"
 import ContentImage from "@/app/components/contentImage/contentImage"
 
+
+export const metadata = {
+  title: 'Crypto',
+  description: 'Rapid Api',
+}
+
+
 export default function Crypto() {
   return (
     <>

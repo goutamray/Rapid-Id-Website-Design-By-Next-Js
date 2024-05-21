@@ -82,3 +82,28 @@
 }
 
 
+@media (min-width : 320px) and (max-width: 576px){
+  .signUp .signUp_form .form_data{
+    padding-left: 15px;
+    padding-right: 30px !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 70%;
+ }
+ .signUp_form .form_data form .my_2 .name_box{
+  display: flex;
+  gap: 10px;
+ }
+
+}
+
+
+@media (min-width : 576px) and (max-width: 768px){
+  .signUp .signUp_form .form_data{
+    padding-left: 15px;
+    padding-right: 40px !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+ }
+}

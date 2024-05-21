@@ -1,3 +1,4 @@
+
 // import images 
 
 import okay  from "@/public/okay.svg"
@@ -14,6 +15,11 @@ import ImageContent from "@/app/components/imageContent/imageContent"
 import ContentImage from "@/app/components/contentImage/contentImage"
 
 
+
+export const metadata = {
+  title: 'Medical',
+  description: 'Rapid Api',
+}
 
 
 

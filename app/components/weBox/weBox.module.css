@@ -8,6 +8,7 @@
    font-size: 16px;
    font-weight: 700;
    color: var(--primary-color);
+
 }
 
 .stand_box p{
@@ -15,4 +16,6 @@
    font-weight: 400;
    color: var(--primary-color);
 }
+
+
 

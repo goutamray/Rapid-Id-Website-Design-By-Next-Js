@@ -1,7 +1,9 @@
 "use client"
-
 import styles from "@/app/contact/contact.module.css"
-export default function page() {
+
+
+
+export default function Contact() {
   return (
     <>
       <div className={styles.contact}>

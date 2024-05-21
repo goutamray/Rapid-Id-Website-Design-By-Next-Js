@@ -58,7 +58,9 @@
 
 /* responsive css */
 @media (min-width : 320px) and (max-width: 1020px){ 
-
+ .header{
+  display: none;
+ }
 
 }
 

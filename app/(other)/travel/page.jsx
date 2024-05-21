@@ -1,3 +1,4 @@
+
 import Banner from "@/app/components/banner/banner";
 import ContentImage from "@/app/components/contentImage/contentImage";
 import ImageContent from "@/app/components/imageContent/imageContent";
@@ -11,6 +12,14 @@ import code  from "@/public/code.svg"
 import WhatWe from "@/app/components/whatWe/whatWe";
 import Pricing from "@/app/components/pricing/pricing";
 import GetStarted from "@/app/components/getStarted/getStarted";
+
+
+export const metadata = {
+  title: 'Travel',
+  description: 'Rapid Api',
+}
+
+
 
 export default function Travel() {
   return (

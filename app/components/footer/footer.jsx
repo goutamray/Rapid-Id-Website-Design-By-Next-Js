@@ -18,7 +18,9 @@ export default function Footer() {
                 <div className={styles.footerPart1}>
                     <div className={styles.logoBox}>
                         <div className={styles.logo}>
-                            <Image src={logo2} alt="logo"/>
+                            <Link href="/"> 
+                                <Image src={logo2} alt="logo"/>
+                            </Link>
                         </div>
                         <div className={styles.description}>
                             <p> RapidID is a Gateway to a number of Government Document Verification Services DVS internationally. Get rapid access today. ISO Certified Protection. </p>
@@ -68,8 +70,8 @@ export default function Footer() {
                             <li> <Link href="/about"> About Us </Link></li>
                             <li> <Link href="/security"> Security </Link></li>
                             <li> <Link href="/contact"> Contact Us </Link></li>
-                            <li> <Link href="/privacy-policy"> Privacy Policy </Link></li>
-                            <li> <Link href="/terms-condition"> Terms & Condition </Link></li>
+                            <li> <Link href="#"> Privacy Policy </Link></li>
+                            <li> <Link href="#"> Terms & Condition </Link></li>
                         </ul>
                      </div>
                 </div>

@@ -107,7 +107,48 @@
   margin-bottom: 20px;
 }
 
+/****** Responsive css ********/
+@media (min-width : 320px) and (max-width: 576px){
+  .blog_top{
+    height: 50vh;
+  }
 
+  .our_blog .blog_details .single_blog{
+    width: 100%;
+    margin: 10px 20px !important;
+  }
+  .top_bar h2{
+    font-size: 24px ;
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (min-width : 576px) and (max-width: 768px){
+  .blog_top{
+    height: 50vh !important;
+  }
+
+  .top_bar h2{
+    font-size: 30px ;
+    margin-bottom: 20px;
+  }
+
+}
+
+@media (min-width : 576px) and (max-width: 992px){
+  .blog_top{
+    height: 60vh !important;
+  }
+  .our_blog .blog_details .single_blog{
+    width: 46%;
+    margin: 10px !important;
+  }
+}
+
+@media (min-width : 768px) and (max-width: 1020px){
+   
+}
 
 
 

@@ -129,3 +129,84 @@
 .map{
   padding-top: 40px;
 }
+
+/**** Responsive css ******/
+@media (min-width : 320px) and (max-width: 576px){
+  .contact{
+    height: 30vh !important;
+    position: relative;
+  }
+  .contact h2{
+    font-size: 25px !important;
+    position: absolute;
+    left: 30%;
+  }
+  .map iframe{
+    width: 350px;
+    padding-right: 10px;
+  }
+  .contact_details .mail_contact{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .contact_details .mail_contact h2{
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+}
+
+@media (min-width : 320px) and (max-width: 768px){
+  .contact_form .full_contact_form{
+    display: flex;
+   flex-direction: column;
+   gap: 30px;
+  }
+  .contact_form .full_contact_form .contact_left{
+    width: 95% !important;
+    display: block;
+    margin-left: 15px;
+    margin-right: 35px !important;
+  }
+  .full_contact_form .contact_right{
+    width: 95% !important;
+    display: block;
+    margin-right: 35px !important;
+    overflow: hidden;
+    
+  }
+
+  .contact_form .full_contact_form .contact_left h3{
+    padding: 0px 15px;
+    text-align: center;
+  }
+ 
+}
+
+
+@media (min-width : 768px) and (max-width: 1020px){
+  .contact_form .full_contact_form{
+    display: flex;
+    gap: 20px;
+  }
+  .contact_form .full_contact_form .contact_left{
+    width: 45%;
+  }
+  .full_contact_form .contact_right{
+    width: 45%;
+  }
+
+  .contact_form .full_contact_form .contact_left h3{
+    padding: 0px 15px;
+    text-align: center;
+  }
+  .contact_form{
+    padding: 20px ;
+  }
+
+}
+
+
+

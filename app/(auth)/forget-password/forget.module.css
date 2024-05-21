@@ -54,3 +54,22 @@
 }
 
 
+/***** Responsive css  ******/
+@media (min-width : 320px) and (max-width: 576px){
+  .forget .forget_form .form_data{
+    padding-left: 15px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 70%; 
+ }
+} 
+@media (min-width : 576px) and (max-width: 768px){
+  .forget .forget_form .form_data{
+    padding-left: 15px;
+    padding-right: 40px !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%; 
+ }
+} 

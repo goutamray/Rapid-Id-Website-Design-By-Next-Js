@@ -13,7 +13,11 @@ import Pricing from "./components/pricing/pricing";
 import GetStarted from "./components/getStarted/getStarted";
 import Banner from "./components/banner/banner";
 
-
+ 
+export const metadata = {
+  title: 'Home',
+  description: 'Rapid Api',
+}
 
 
 export default function Home() {

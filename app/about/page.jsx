@@ -1,3 +1,4 @@
+
 // import images 
 import rocket from "@/public/rocket.svg"
 import technology from "@/public/technology.svg"
@@ -16,6 +17,12 @@ import Pricing from "../components/pricing/pricing"
 import GetStarted from "../components/getStarted/getStarted"
 
 
+export const metadata = {
+  title: 'About',
+  description: 'Rapid Api',
+}
+
+
 export default function About() {
   return (
     <>
@@ -23,7 +30,7 @@ export default function About() {
 
       <div className={styles.real_state}>
         <div className="container"> 
-          <div className={styles.full_real_box}> 
+          <div className={styles.full_real_box_ab}> 
             <div className={styles.realState_left}>
                <div className={styles.realDesc}>
                    <h1>Dedicated to Advancing & Simplifying ID Verification </h1>

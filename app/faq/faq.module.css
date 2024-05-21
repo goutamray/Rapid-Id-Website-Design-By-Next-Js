@@ -46,3 +46,22 @@
   color: #000;
 }
 
+/***** Responsive css  ******/
+@media (min-width : 320px) and (max-width: 576px){
+  .heading h2{
+    font-size: 28px;
+  }
+  .question_answer .topper button{
+    width: 100%;
+  }
+
+  .question_answer .topper button h4{
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: start;
+  }
+}
+
+
+

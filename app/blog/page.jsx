@@ -1,6 +1,13 @@
 
+
 import styles from "./blog.module.css";
 import BlogCard from "../components/blogCard/blogCard";
+
+export const metadata = {
+  title: 'Blog',
+  description: 'Rapid Api',
+}
+
 
 export default async function Blog() {
 
