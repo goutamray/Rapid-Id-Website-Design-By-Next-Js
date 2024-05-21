@@ -2,14 +2,15 @@
 
 .buttonRegister{
   text-align: center;
-  color: #fff;
+  color: #fff !important;
   background-color: #064469;
   border-radius: 5px;
   min-width: 140px;
   margin-bottom: 0;
-  padding: 12px 20px;
+  padding: 12px 20px !important;
   font-size: 15px;
   font-weight: 500;
+  
 
 }
 

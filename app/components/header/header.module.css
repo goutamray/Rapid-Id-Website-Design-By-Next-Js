@@ -5,7 +5,7 @@
   position: sticky;
   left: 0%;
   top: 0%;
-  width: 100%;
+  max-width: 100%;
   box-shadow:  0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
 }
 .topPart{
@@ -57,19 +57,91 @@
 
 
 /* responsive css */
-@media (min-width : 320px) and (max-width: 1020px){ 
- .header{
-  display: none;
- }
+@media (min-width : 320px) and (max-width: 992px){ 
+  .topPart{
+    display: flex;
+    align-items: center;
+  }
+  .header{
+    padding: 15px 20px !important;
+  }
+  .leftPart1{
+    width: 20%;
+  }
+  .leftPart2{
+    width: 80%;
+  
+  }
+
+  .leftPart2 {
+     position: relative;
+     display: flex;
+     align-items: center;
+  }
+
+
+  .leftPart2  .hum_menu{
+     position: absolute;
+     right: 15px !important;
+     top: 0% !important;
+
+  }
+
+ .leftPart2  .hum_menu span svg{
+    font-size: 25px !important;
+    font-weight: 500;
+    position: relative;
+    top: -12px;
+    
+  }
+  .menu{
+    height: 320px;
+    width: 100%;
+    background-color: rgb(220, 220, 220);
+    position: absolute;
+    top: 30px;
+    border-radius: 5px;
+  }
+  
+  .menu ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .menu ul li {
+    display: block;
+    width: 100% !important;
+
+  }
+  .menu ul li:first-child {
+    padding-top: 20px;
+
+  }
+
+  .menu ul li a{
+    display: block;
+    padding: 0px ;
+    padding-left: 20px;
+  }
+
+
+  .leftPart3{
+     display: none;
+     width: 0px;
+  }
 
 }
 
 
 
 
-@media (min-width : 1020px) and (max-width: 1320px){
-  .header{
-     padding: 20px 30px;
+@media (min-width : 992px) and (max-width: 1920px){
+  .leftPart2  .hum_menu span svg{
+    opacity: 0;
+    visibility: hidden;
   }
+
 }
 

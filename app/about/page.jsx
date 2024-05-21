@@ -63,7 +63,7 @@ export default function About() {
           <div className={styles.full_rocket}> 
             <div className={styles.rocket_text}>
                  <h4> LATEST TOOLS </h4>
-                 <h2> We evolve with technology</h2>
+                 <h2> We envolve with technology</h2>
                  <p>Technology doesn’t sit still, and neither do we. We’re always questioning how we can make things faster, more efficient and a better experience for our customers. </p>
             </div>
             <div className={styles.rocket_image}>

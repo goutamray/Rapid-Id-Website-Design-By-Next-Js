@@ -90,11 +90,16 @@
     padding-bottom: 20px;
     width: 70%;
  }
- .signUp_form .form_data form .my_2 .name_box{
-  display: flex;
-  gap: 10px;
- }
-
+  .signUp_form .form_data form .my_2 .name_box{
+    display: flex;
+    gap: 10px;
+  }
+  .signUp_form .form_data form .my_2 .first_name{
+    width: 42%;
+  }
+  .signUp_form .form_data form .my_2 .last_name{
+    width: 42%;
+  }
 }
 
 
