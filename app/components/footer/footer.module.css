@@ -103,23 +103,139 @@
 } 
 
 
+/******* responsive css ********/
+@media (min-width : 320px) and (max-width: 420px){
+  .footer{
+    padding: 40px 30px !important;
+  }
+  .footer .bottomFooterPart{
+    display: flex;
+    flex-direction: column;
+ }
+  .footerPart1{
+     width: 100% !important;
+    display: block;
+  }
+  .footerPart2{
+    width: 100% !important;
+    display: block;
+    padding-top: 20px;
+  }
+  .footerPart3{
+    width: 100% !important;
+    display: block;
+    padding-top: 20px;
+  }
+  .footerPart4{
+    width: 100% !important;
+    display: block;
+    padding-top: 20px;
+  }
+  .footerPart5{
+    width: 100% !important;
+    display: block;
+    padding-top: 20px;
+  }
 
-@media (min-width : 320px) and (max-width: 576px){
+  .footerPart2 .solution h4{
+    padding-left: 0px !important;
+  }
+  .solutionPart ul li a{
+    padding-left: 0px !important;
+  }
+.footer .footerPart2 h4, 
+.footer .footerPart3 h4, 
+.footer .footerPart4 h4{
+  margin-bottom: 0px !important;
+  font-weight: 600;
+}
+.cerified{
+  text-align: start !important;
+}
+
+}   
+
+@media (min-width : 420px) and (max-width: 768px){
+  .footer {
+    padding: 40px 30px !important;
+  }
+  .footer .bottomFooterPart{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+ }
+  .footerPart1{
+    width: 45% !important;
+  
+}
+.footerPart2{
+  width: 43% !important;
+  
+}
+
+.footerPart3{
+  width: 45% !important;
 
 }
-@media (min-width : 576px) and (max-width: 768px){
+.footerPart4{
+  width: 45% !important;
 
 }
+.footerPart5{
+  width: 100% !important;
+}
+.cerified{
+  text-align: start !important;
+}
 
+.footer .footerPart2 h4, 
+.footer .footerPart3 h4, 
+.footer .footerPart4 h4{
+  margin-bottom: 10px !important;
+  font-weight: 600;
+}
+}
 
 @media (min-width : 768px) and (max-width: 1020px){
+  .footer {
+    padding: 40px 30px !important;
+  }
+  .footer .bottomFooterPart{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+ }
+  .footerPart1{
+    width: 45% !important;
+  
+}
+.footerPart2{
+  width: 43% !important;
+  
+}
+
+.footerPart3{
+  width: 31% !important;
+
+}
+.footerPart4{
+  width: 31% !important;
+
+}
+.footerPart5{
+  width: 31% !important;
+}
+
+.cerified{
+  text-align: start !important;
+}
 
 }
 
 
 @media (min-width : 1020px) and (max-width: 1320px){
   .footer{
-     padding: 40px 30px;
+     padding: 40px 30px !important;
   }
 }
 
