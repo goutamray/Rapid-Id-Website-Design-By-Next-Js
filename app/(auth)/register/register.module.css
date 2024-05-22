@@ -80,6 +80,12 @@
    color: #fff;
    margin-top: 20px;
 }
+.signUp_form .form_data form p.ab_error{
+   color : red;
+   font-size: 14px;
+   font-weight: 500;
+   margin-top: 8px;
+}
 
 
 @media (min-width : 320px) and (max-width: 576px){

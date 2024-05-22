@@ -60,6 +60,13 @@
    margin-top: 20px;
 }
 
+ .my_2_ab{
+  text-align: center;
+  margin-top: 8px;
+}
+ .my_2_ab a{
+    text-decoration: underline;
+}
 
 /***** Responsive css  ******/
 @media (min-width : 320px) and (max-width: 576px){

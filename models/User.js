@@ -6,7 +6,6 @@ const userSchema = mongoose.Schema({
   fastName : {
     type : String,
     trim : true,
-    required : true
   },
   lastName : {
     type : String,
@@ -38,7 +37,7 @@ const userSchema = mongoose.Schema({
   },
 },{
   timestamps : true,
-})
+})   
 
 
 // export default schema 
