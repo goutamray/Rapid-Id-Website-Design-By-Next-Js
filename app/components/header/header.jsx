@@ -7,11 +7,14 @@ import styles from "./header.module.css"
 import Button from "../button/button"
 import { useState } from "react"
 import { IoMdMenu } from "react-icons/io";
+import { signOut, useSession } from "next-auth/react"
  
 
 export default function Header() {
+  const {data : session } = useSession();
   const [windowWidth, setWindowWidth ] = useState(window.innerWidth);
   const [open, setOpen] = useState(false); 
+
 
   return (
     <>
@@ -38,6 +41,9 @@ export default function Header() {
                             <Link href="/"> Home </Link>
                         </li>
                         <li>
+                            <Link href="/dashboard"> Dashboard </Link>
+                        </li>
+                        <li>
                             <Link href="/about"> About </Link>
                         </li>
                         <li>
@@ -54,15 +60,16 @@ export default function Header() {
                         </li>
                     </ul>    
                   </div> 
-              }
-                  
-          
+              }              
 
                   {
                     open &&   <div className={styles.menu} >
                     <ul>
                         <li>
                             <Link href="/"> Home </Link>
+                        </li>
+                        <li>
+                            <Link href="/dashboard"> Dashboard </Link>
                         </li>
                         <li>
                             <Link href="/about"> About </Link>
@@ -82,12 +89,26 @@ export default function Header() {
                         {
                       windowWidth < 992 && 
                           <> 
-                          <li>
-                             <Link href="/login"> Sign In </Link>
-                          </li>
-                          <li>
-                               <Button /> 
-                           </li>
+                          {
+                            session ? (
+                              <>
+                              <li>
+                                  <button onClick={() => {signOut()}}> Log Out </button>
+                               </li>
+                              
+                              </>
+                            ) : (
+                              <>
+                                <li>
+                                   <Link href="/login"> Sign In </Link>
+                                 </li>
+                                 <li>
+                                      <Button /> 
+                                  </li>
+                              </>
+                            )
+                          }
+                      
                           </>
                         } 
                     </ul>    
@@ -103,13 +124,27 @@ export default function Header() {
                 <div className={styles.leftPart3}> 
                   <div className={styles.auth}>
                     <ul>
-                        <li>
-                           <Link href="/login"> Sign In </Link>
-                        </li>
-                        <li>
-                          <Button /> 
-                        </li>
-                    </ul>
+                      {
+                        session ? (
+                          <> 
+                           <li>
+                               <button onClick={() => {signOut()}}> Log Out </button>
+                           </li>
+                          </>
+                    
+                        ) : (
+                          <> 
+                          <li>
+                               <Link href="/login"> Sign In </Link>
+                           </li>
+                           <li>
+                               <Button /> 
+                          </li>
+                       </>
+                        )
+                      }      
+                      
+                    </ul>  
                   </div>
                 </div>
 
