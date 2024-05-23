@@ -5,15 +5,9 @@ import Image from "next/image"
 import Link from "next/link"
 import styles from "./header.module.css"
 import Button from "../button/button"
-import { useState } from "react"
-import { IoMdMenu } from "react-icons/io";
-import { signOut, useSession } from "next-auth/react"
- 
+import { MdMenu } from "react-icons/md";
 
 export default function Header() {
-  const {data : session } = useSession();
-  const [windowWidth, setWindowWidth ] = useState(window.innerWidth);
-  const [open, setOpen] = useState(false); 
 
 
   return (
@@ -32,121 +26,59 @@ export default function Header() {
 
                 {/* part 2  */}
               <div className={styles.leftPart2}> 
-              {
-                windowWidth < 992 ? <div className={styles.hum_menu}>
-                <span onClick={() => setOpen(!open)}><IoMdMenu /></span>
-               </div> : <div className={styles.menu} >
-                    <ul>
-                        <li>
-                            <Link href="/"> Home </Link>
-                        </li>
-                        <li>
-                            <Link href="/dashboard"> Dashboard </Link>
-                        </li>
-                        <li>
-                            <Link href="/about"> About </Link>
-                        </li>
-                        <li>
-                            <Link href="/blog"> Blog </Link>
-                        </li>
-                        <li>
-                            <Link href="/faq"> Faq </Link>
-                        </li>
-                        <li>
-                            <Link href="/security"> Security </Link>
-                        </li>
-                        <li>
-                            <Link href="/contact"> Contact </Link>
-                        </li>
-                    </ul>    
-                  </div> 
-              }              
-
-                  {
-                    open &&   <div className={styles.menu} >
-                    <ul>
-                        <li>
-                            <Link href="/"> Home </Link>
-                        </li>
-                        <li>
-                            <Link href="/dashboard"> Dashboard </Link>
-                        </li>
-                        <li>
-                            <Link href="/about"> About </Link>
-                        </li>
-                        <li>
-                            <Link href="/blog"> Blog </Link>
-                        </li>
-                        <li>
-                            <Link href="/faq"> Faq </Link>
-                        </li>
-                        <li>
-                            <Link href="/security"> Security </Link>
-                        </li>
-                        <li>
-                            <Link href="/contact"> Contact </Link>
-                        </li>
-                        {
-                      windowWidth < 992 && 
-                          <> 
-                          {
-                            session ? (
-                              <>
-                              <li>
-                                  <button onClick={() => {signOut()}}> Log Out </button>
-                               </li>
-                              
-                              </>
-                            ) : (
-                              <>
-                                <li>
-                                   <Link href="/login"> Sign In </Link>
-                                 </li>
-                                 <li>
-                                      <Button /> 
-                                  </li>
-                              </>
-                            )
-                          }
-                      
-                          </>
-                        } 
-                    </ul>    
-                  </div> 
-                  }
-    
-               
-                </div>
+                  <input className={styles.humba_check} type="checkbox" name=""  />
+                  <span> <MdMenu /> </span>
+              
+                 <ul>
+                    <li>
+                        <Link href="/"> Home </Link>
+                    </li>
+                    {/* <li>
+                        <Link href="/dashboard"> Dashboard </Link>
+                    </li> */}
+                    <li>
+                        <Link href="/about"> About </Link>
+                    </li>
+                    <li>
+                        <Link href="/blog"> Blog </Link>
+                    </li>
+                    <li>
+                        <Link href="/faq"> Faq </Link>
+                    </li>
+                    <li>
+                        <Link href="/security"> Security </Link>
+                    </li>
+                    <li className={styles.list_menu}>
+                        <Link href="/contact"> Contact </Link>
+                    </li>
+                    <li>
+                       <Link href="/login"> Sign In </Link>
+                    </li>
+                    <li className={styles.button_get}>
+                         <Button />    
+                    </li>
+                    
+                </ul>    
+              </div>  
+              
+                                    
+ 
               
                
                
                {/***** part 3  *******/}
-                <div className={styles.leftPart3}> 
+                {/* <div className={styles.leftPart3}> 
                   <div className={styles.auth}>
                     <ul>
-                      {
-                        session ? (
-                          <> 
-                           <li>
-                               <button onClick={() => {signOut()}}> Log Out </button>
-                           </li>
-                          </>
-                    
-                        ) : (
-                          <> 
-                          <li>
-                               <Link href="/login"> Sign In </Link>
-                           </li>
-                           <li>
-                               <Button /> 
-                          </li>
-                       </>
-                        )
-                      }      
-                      
-                    </ul>  
+                        <li>
+                           <Link href="/login"> Sign In </Link>
+                        </li>
+                        <li>
+                          <Button />    
+                        </li>
+                    </ul>
                   </div>
-                </div>
+                </div> */}
 
              </div>
         </div>

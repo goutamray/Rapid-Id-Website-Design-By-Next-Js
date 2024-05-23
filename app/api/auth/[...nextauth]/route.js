@@ -1,6 +1,6 @@
 
 import NextAuth from "next-auth"
-import nextAuth, {Account, User as AuthUser } from "next-auth" 
+// import nextAuth, {Account, User as AuthUser } from "next-auth" 
 import GithubProvider from "next-auth/providers/github"
 import CredentialsProvider from "next-auth/providers/credentials"; 
 import { mongoDbConnection } from "@/config/mongoDB";

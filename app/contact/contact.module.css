@@ -10,7 +10,9 @@
   height: 30vh;
   display: flex;
   position: relative;
+  z-index: -1;
 }
+
 .contact h2{
   font-size: 36px;
   font-weight: 600;

@@ -25,23 +25,32 @@
 
 /****** menu css ******/
 .leftPart2{
-  width: 50%;
+  width: 80%;
   display: flex;
   justify-content: flex-end;
+  position: relative;
 }
-.menu ul {
+
+
+.leftPart2 ul {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.menu ul li a{
+.leftPart2 ul li a{
     padding: 0px 8px;
     color: var(--primary-color);
     font-size: 16px;
     font-weight: 500;
 }
 
-.menu ul li button{
+
+.leftPart2 ul li.list_menu  {
+  margin-right: 40px !important;
+
+}
+
+.leftPart2 ul li button{
   text-align: center;
   color: #fff !important;
   background-color: #064469;
@@ -54,32 +63,16 @@
   margin-left: 20px !important;
   margin-bottom: 15px;
 }
-/****** right menu  *******/
-.leftPart3 {
-     width: 30%;
-     display: flex;
-     justify-content: flex-end;
-     padding-right: 50px;
+
+.leftPart2 span svg{
+  display: none;
 }
-.leftPart3 .auth ul{
-   display: flex;
-   align-items: center;
-   gap: 15px;
-}
-.leftPart3 .auth ul li button{
-  text-align: center;
-  color: #fff !important;
-  background-color: #064469;
-  border-radius: 5px;
-  min-width: 140px;
-  margin-bottom: 0;
-  padding: 12px 20px !important;
-  font-size: 15px;
-  font-weight: 500;
+.leftPart2 input.humba_check{
+  display: none;
 }
 
 
-/* responsive css */
+/****** responsive css ******/
 @media (min-width : 320px) and (max-width: 992px){ 
   .topPart{
     display: flex;
@@ -91,92 +84,81 @@
   .leftPart1{
     width: 20%;
   }
-  .leftPart2{
-    width: 80%;
-  
-  }
-
   .leftPart2 {
+     width: 80%;
      position: relative;
      display: flex;
      align-items: center;
   }
 
-
-  .leftPart2  .hum_menu{
-     position: absolute;
-     right: 15px !important;
-     top: 0% !important;
-
-  }
-
- .leftPart2  .hum_menu span svg{
-    font-size: 25px !important;
-    font-weight: 500;
-    position: relative;
+  .leftPart2 span svg{
+    font-size: 29px;
+    position: absolute;
+    right: 0px;
     top: -12px;
+    color: #190101;
+    pointer-events: none;
+    display: block;
+    border: 1px solid rgb(145, 145, 145);
+    padding: 2px ;
+    border-radius: 3px;
+  }
+  .leftPart2 input.humba_check{
+    position: absolute;
+    right: 0px;
+    top: -13px;
+    height: 23px;
+    width: 27px;
+    opacity: 0;
+    display: block;
+    cursor: pointer;
     
   }
-  .menu{
-    height: 340px;
-    width: 100%;
-    background-color: rgb(220, 220, 220);
-    position: absolute;
-    top: 30px;
-    border-radius: 5px;
+
+  .leftPart2 input.humba_check:checked ~ ul {
+     visibility: visible;
+     opacity: 1;
   }
-  
-  .menu ul {
+
+  .leftPart2 ul {
     display: flex;
     align-items: center;
-    flex-direction: column;
     gap: 10px;
+    flex-direction: column;
+    position: absolute;
+    right: -14px;
+    top: 30px;
+    visibility: hidden;
+    opacity: 0;
+    background-color: rgb(207, 207, 207);
+    padding: 12px 0px;
+    width: 100%;
+    border-radius: 4px;
   }
-
-  .menu ul li {
-    display: block;
-    width: 100% !important;
-
+  .leftPart2 ul li a{
+   text-align: end !important;
+   font-size: 20px;
+   font-weight: 500;
   }
-  .menu ul li:first-child {
-    padding-top: 20px;
-
+  .leftPart2 ul li:last-child{
+    margin-bottom: 15px;
   }
-
-  .menu ul li a{
-    display: block;
-    padding: 0px ;
-    padding-left: 20px;
+  .leftPart2 ul li.list_menu  {
+    margin-right: 0px !important;
   }
-
-
-  .leftPart3{
-     display: none;
-     width: 0px;
+  .leftPart2 ul li.button_get{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 8px;
   }
-
-  .leftPart3  ul li button{
-    text-align: center;
-    color: #fff !important;
-    background-color: #064469;
-    margin-bottom: 20px !important;
-    border-radius: 5px;
-    min-width: 140px;
-    margin-bottom: 0;
-    padding: 12px 20px !important;
-    font-size: 15px;
-    font-weight: 500;
-  }
-
 }
 
 
 
 
 @media (min-width : 992px) and (max-width: 1920px){
-  .leftPart2  .hum_menu span svg{
-    opacity: 0;
-    visibility: hidden;
+  .header{
+    padding: 20px 30px;
   }
 
 }
