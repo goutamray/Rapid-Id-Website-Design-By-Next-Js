@@ -58,6 +58,7 @@
    border-radius: 4px;
    color: #fff;
    margin-top: 20px;
+   cursor: pointer;
 }
 
  .my_2_ab{
@@ -67,6 +68,14 @@
  .my_2_ab a{
     text-decoration: underline;
 }
+
+.login_form .form_data form p.ab_error{
+  color : red;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
 
 /***** Responsive css  ******/
 @media (min-width : 320px) and (max-width: 576px){

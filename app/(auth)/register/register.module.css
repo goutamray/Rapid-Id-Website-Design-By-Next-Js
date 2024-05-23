@@ -79,6 +79,7 @@
    border-radius: 4px;
    color: #fff;
    margin-top: 20px;
+   cursor: pointer;
 }
 .signUp_form .form_data form p.ab_error{
    color : red;

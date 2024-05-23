@@ -1,3 +1,4 @@
+
 import { mongoDbConnection } from "@/config/mongoDB";
 import User from "@/models/User";
 import { NextResponse } from "next/server";
@@ -31,7 +32,7 @@ export const POST = async(request) => {
       country,
       email,
       password : hashPass
-   });
+   });     
 
    newUser.save(); 
 

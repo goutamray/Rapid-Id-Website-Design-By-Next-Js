@@ -8,13 +8,13 @@ import Link from "next/link"
 
 import { useState } from "react"
  import { isEmail } from "@/helpers/helpers"
-import { useRouter } from "next/navigation"
-
+import { useRouter } from "next/navigation"    
+    
 
 export default function Register() { 
       
-  const [error, setError] = useState("")
-  const router = useRouter()
+  const [error, setError] = useState("")     
+  const router = useRouter(); 
 
    // handle form submit 
    const handleFormSubmit = async (e) => {
@@ -25,7 +25,7 @@ export default function Register() {
       const phone = e.target[2].value;
       const country = e.target[3].value;
       const email = e.target[4].value;
-      const password = e.target[5].value;
+      const password = e.target[5].value;   
 
    // check email 
     if(!isEmail(email)){
@@ -36,10 +36,10 @@ export default function Register() {
   // check password 
     if(!password || password.length < 6 ){
        setError("Password is Invalid")
-       return;
+       return;    
     };     
 
-
+      
       try {
         const res = await fetch("/api/register", {
           method : "POST",
@@ -66,7 +66,6 @@ export default function Register() {
       } catch (error) {
         setError("Error, Something went wrong")
       }    
-    
    }
 
   return (
@@ -91,7 +90,7 @@ export default function Register() {
                         <input type="text" id="lastName" name="lastName" />
                       </div>
                     </div>      
-                  </div>   
+                  </div>        
                    <div className={styles.my_2}>
                     <label htmlFor="number"> Phone Number </label>
                     <input type="text" id="number" name="phone" />
@@ -105,7 +104,7 @@ export default function Register() {
                        <option value="Australia"> Australia </option>
                        <option value="Canada"> Canada </option>
                        <option value="Japan"> Japan </option>
-                    </select>
+                    </select>    
                   </div> 
                   <div className={styles.my_2}>
                     <label htmlFor="email1"> Email </label>
@@ -114,7 +113,7 @@ export default function Register() {
                   <div className={styles.my_2}>
                     <label htmlFor="pass"> Password </label>
                     <input type="password" id="pass" name="password"  />
-                  </div>
+                  </div>    
  
                   <button type="submit"> Create Account </button>
                   <p className={styles.ab_error}> {error && error }</p>
