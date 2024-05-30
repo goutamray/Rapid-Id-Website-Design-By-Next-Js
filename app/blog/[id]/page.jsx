@@ -16,11 +16,11 @@ export default async function SinglePage({ params }) {
 
   const res = await fetch(url, options);    
   const data = await res.json();
-  const main_data = data[0].details
+  const main_data = data[0].details  
 
   return (
     <>
-      <div className={styles.single_post}>
+      <div className={styles.single_post}>    
         <div className="container">
            <Image src={main_data.backgroundImage.url} alt="post" height="400" width="1200"/>
           <h2> {main_data.title}  </h2>

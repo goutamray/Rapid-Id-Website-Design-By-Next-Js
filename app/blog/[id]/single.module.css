@@ -19,5 +19,13 @@
  color: var(--primary-color);
 }
 
+/******* Responsive css  ********/
+@media (min-width : 320px) and (max-width: 576px){
+  .single_post{
+    padding: 20px 10px;
+  }
 
-
+  .single_post h2{
+    font-size: 25px;
+  }
+}
