@@ -4,6 +4,7 @@ import logo from "@/public/logo.svg"
 import Image from "next/image"
 import Link from "next/link"
 import styles from "./login.module.css"
+
 import { signIn, useSession } from "next-auth/react" 
 import { useEffect, useState } from "react"
  import { isEmail } from "@/helpers/helpers"
@@ -20,7 +21,7 @@ export default function Login() {
     if (session?.status === "authenticated") {
        router.replace("/dashboard")
     }
- }, [session, router]); 
+ }, [session, router]);    
 
 
    // handle form submit 

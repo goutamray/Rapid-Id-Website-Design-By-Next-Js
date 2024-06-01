@@ -3,6 +3,7 @@ import { getServerSession } from "next-auth"
 import { redirect } from "next/navigation"
 
 import styles from "./dashboard.module.css"
+
 export default async function Dashboard() {
   const session = await getServerSession();
 

@@ -1,6 +1,6 @@
 
 .header{
-  padding: 20px 0px;
+  padding: 15px 0px;
   background-color: #fcfdfe;
   position: sticky;
   left: 0%;
@@ -61,7 +61,6 @@
   font-size: 15px;
   font-weight: 500;
   margin-left: 20px !important;
-  margin-bottom: 15px;
 }
 
 .leftPart2 span svg{
@@ -71,6 +70,20 @@
   display: none;
 }
 
+
+.leftPart2 ul li button.sign-out-btn{
+  text-align: center;
+  color: #fff !important;
+  background-color: #064469;
+  border-radius: 5px;
+  min-width: 140px;
+  margin-bottom: 0;
+  padding: 12px 20px !important;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 20px !important;
+  cursor: pointer;
+}
 
 /****** responsive css ******/
 @media (min-width : 320px) and (max-width: 992px){ 
@@ -158,7 +171,7 @@
 
 @media (min-width : 992px) and (max-width: 1920px){
   .header{
-    padding: 20px 30px;
+    padding: 10px 30px;
   }
 
 }

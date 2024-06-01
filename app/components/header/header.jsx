@@ -7,8 +7,10 @@ import styles from "./header.module.css"
 import Button from "../button/button"
 import { MdMenu } from "react-icons/md";
 
-export default function Header() {
+import { signOut, useSession } from "next-auth/react"
 
+export default function Header() {
+   const { data : session } = useSession(); 
 
   return (
     <>
@@ -51,36 +53,30 @@ export default function Header() {
                     <li className={styles.list_menu}>
                         <Link href="/contact"> Contact </Link>
                     </li>
-                    <li>
-                       <Link href="/login"> Sign In </Link>
-                    </li>
-                    <li className={styles.button_get}>
-                         <Button />    
-                    </li>
+                    {
+                      !session ? (
+                        <> 
+                           <li>
+                                <Link href="/login"> Sign In </Link>
+                           </li>
+                           <li className={styles.button_get}>
+                                <Button />    
+                           </li>
+                       </>
+                      ) : (
+                        <> 
+                           <li>
+                               <button onClick={() => { signOut(); }} className="sign-out-btn"> Log Out </button>
+                           </li>
+                         </>   
+                      )
+                    }
+                   
                     
                 </ul>    
               </div>  
-              
-                                    
- 
-              
-               
-               
-               {/***** part 3  *******/}
-                {/* <div className={styles.leftPart3}> 
-                  <div className={styles.auth}>
-                    <ul>
-                        <li>
-                           <Link href="/login"> Sign In </Link>
-                        </li>
-                        <li>
-                          <Button />    
-                        </li>
-                    </ul>
-                  </div>
-                </div> */}
-
-             </div>
+                                                                 
+            </div>
         </div>
       </div>
     </>
