@@ -54,11 +54,11 @@ export default function About() {
                  <p>Everything we do is rapid. In a world where we’ve become impatient, the use of trusted identity technology is enabling faster interactions with the tools we’re using everyday. From fingerprints, to voice applications and facial recognition, we’re obsessed with ensuring the digital interactions you have everyday are streamlined and secure in every way possible. </p>
             </div>
            </div>
-         </div>
-       </div>
+         </div>     
+       </div>                
 
-      {/* latest tools section start */}
-       <div className={styles.rocket} style={{backgroundColor:"#f8f8f8"}}>
+      {/***** latest tools section start *******/}
+       <div className={styles.rocket}  style={{backgroundColor:"#f8f8f8"}}>
          <div className="container">
           <div className={styles.full_rocket}> 
             <div className={styles.rocket_text}>
@@ -67,9 +67,9 @@ export default function About() {
                  <p>Technology doesn’t sit still, and neither do we. We’re always questioning how we can make things faster, more efficient and a better experience for our customers. </p>
             </div>
             <div className={styles.rocket_image}>
-               <Image src={technology} alt="rocket"/>
+               <Image  src={technology} alt="rocket"/>    
             </div>
-           </div>
+           </div>       
          </div>
        </div>
 
@@ -80,7 +80,7 @@ export default function About() {
             <div className={styles.rocket_image}>
                <Image src={calculator} alt="rocket"/>
             </div>
-            <div className={styles.rocket_text}>
+            <div  className={styles.rocket_text}>
                  <h4> INSTANT REGULATORY COMPLIANCE </h4>
                  <h2> We don’t believe in financial barriers </h2>
                  <p>We believe in a simple costing model, where you only pay for what services you use. RapidID’s systems are highly automated & this means we can pass savings onto you instead. </p>

@@ -32,26 +32,26 @@ export default function Home() {
       paragraph = {"Using their smartphone tablet or desktop devices, tenants can easily verify their 100 points of ID against trusted & approved government data sources within seconds, making the last minute scramble an enjoyable experience for all parties involved"}/>
 
 
-      {/** biometric section start  */}
+       {/** biometric section start  */}
         <ContentImage photo={man2} title={"BIOMETRICS & ID SCANNING"} desc={"Remove Friction When it Comes to Paperwork and Manual Processes"} para={"Property settlement can seem like an endless reel of paperwork. With RapidID, you can decrease drop-off rates by allowing buyers, sellers and tenants to scan their ID documents in seconds & verify their details against government data sources."}/> 
 
 
-     {/* remove section start */}
-      <ImageContent image={phone} title={"GLOBAL ID VERIFICATION"} details={"Remotely Ensure the Correct Person is Behind the Application"}
-      paragraph = {"Wherever your buyer or seller is in the world, RapidID’s secure neural networks reduce the risk of fraud by verifying the identity of the buyer or seller and their authority to buy or sell the nominated land or property against 100+ billion identity records across 180+ countries."}/>
+       {/* remove section start */}
+        <ImageContent image={phone} title={"GLOBAL ID VERIFICATION"} details={"Remotely Ensure the Correct Person is Behind the Application"}
+        paragraph = {"Wherever your buyer or seller is in the world, RapidID’s secure neural networks reduce the risk of fraud by verifying the identity of the buyer or seller and their authority to buy or sell the nominated land or property against 100+ billion identity records across 180+ countries."}/>
 
 
-     {/** biometric section start  */}
-     <ContentImage photo={code} title={"DEVELOPER FRIENDLY"} desc={"Made For Developers, By Developers"} para={"We've created a service that is easy to set-up and start using without instructions. Our web portal is simplistic by design, and our developers love working with the JSON RESTful API."}/> 
+       {/** biometric section start  */}
+        <ContentImage photo={code} title={"DEVELOPER FRIENDLY"} desc={"Made For Developers, By Developers"} para={"We've created a service that is easy to set-up and start using without instructions. Our web portal is simplistic by design, and our developers love working with the JSON RESTful API."}/> 
 
 
-     {/* What we section start  */}
-      <WhatWe /> 
+       {/* What we section start  */}
+       <WhatWe /> 
  
-    {/* pricing section start*/}
+       {/* pricing section start*/}
          <Pricing />    
 
-     {/* get Started section */}
+       {/* get Started section */}
         <GetStarted /> 
    </>      
   );

@@ -3,14 +3,12 @@
 .what_we_price{
   padding: 60px 0px;
 }
-
 .top_part{
   text-align: center;
 }
 .top_part p{
   padding: 10px 20px !important;
-}
-     
+}   
 .pricing_bottom_part{
   display: flex;
   justify-content: space-between;
@@ -37,51 +35,50 @@ color: var(--primary-color);
  .pricing_bottom_part .price_box_ab{
     width: 100% !important;
     display: block;
-
  }
 
 }
-@media (min-width : 320px) and (max-width: 576px){
-  .what_we_price{
-    padding: 40px 20px;
-  }
 
-  .pricing_bottom_part{
+
+@media (min-width : 320px) and (max-width: 576px){
+.what_we_price{
+    padding: 40px 20px;
+}
+.pricing_bottom_part{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-  }
-
-
-  .pricing_bottom_part .price_box_ab{
+}
+.pricing_bottom_part .price_box_ab{
     width: 48% ;
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 10px;
  }
+
 }
 
 
 
 @media (min-width : 576px) and (max-width: 768px){
-  .pricing_bottom_part{
+.pricing_bottom_part{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-  }
-
-  .pricing_bottom_part .price_box_ab{
+}
+.pricing_bottom_part .price_box_ab{
     width: 50% ;
     display: flex;
     justify-content: center;
     flex-direction: column;
     gap: 10px;
- }
+}
+
 }
 
 @media (min-width : 768px) and (max-width: 1020px){
-  .pricing_bottom_part .price_box_ab{
+.pricing_bottom_part .price_box_ab{
     width: 23% ;
     display: flex;
     justify-content: center;
@@ -90,10 +87,12 @@ color: var(--primary-color);
  }
 }
 
+
 @media (min-width : 1020px) and (max-width: 1320px){
   .what_we_price{
      padding: 40px 30px;
   }
+  
 }
 
 

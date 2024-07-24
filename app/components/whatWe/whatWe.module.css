@@ -17,9 +17,8 @@
 .what_we{
   padding: 50px 0px;
 }
-
 .what_we .top_part{
-     text-align: center;
+   text-align: center;
 }
 .what_we .top_part h2{
    font-size: 32px;
@@ -43,9 +42,9 @@
    padding: 0px 10px;
 }
 
-/* responsive css */
+/******** responsive css *******/
 @media (min-width : 320px) and (max-width: 450px){
-   .we_bottom_part .we_box_content{
+.we_bottom_part .we_box_content{
       width: 100% !important;
        display: block;
        padding: 0px 10px;
@@ -57,43 +56,45 @@
     font-size: 25px;
     text-align: center;
  }
+.we_bottom_part .we_box_content{
+   width: 42%;
+}
+.what_we .top_part p{
+   padding: 10px 20px;
+}
 
-   .we_bottom_part .we_box_content{
-      width: 42%;
-   }
-
-   .what_we .top_part p{
-      padding: 10px 20px;
-   }
 }
 
 
 @media (min-width : 576px) and (max-width: 768px){
-   .what_we .top_part h2{
-      font-size: 27px;
-      text-align: center;
-   }
+.what_we .top_part h2{
+   font-size: 27px;
+   text-align: center;
+}
+.we_bottom_part .we_box_content{
+   width: 45%;
+}
+.what_we .top_part p{
+   padding: 10px 20px;
+}
 
-   .we_bottom_part .we_box_content{
-      width: 45%;
-   }
-   .what_we .top_part p{
-      padding: 10px 20px;
-   }
 }
 
 @media (min-width : 768px) and (max-width: 1020px){
-   .we_bottom_part .we_box_content{
-      width: 27%;
-      padding: 10px;
-   }
+.we_bottom_part .we_box_content{
+   width: 27%;
+   padding: 10px;
+}
+
 }
 
 @media (min-width : 1020px) and (max-width: 1320px){
-   .what_we{
-      padding: 40px 30px;
-   }
- }
+.what_we{
+   padding: 40px 30px;
+}
+
+
+}
  
 
 

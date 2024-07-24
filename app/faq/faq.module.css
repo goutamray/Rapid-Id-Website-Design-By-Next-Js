@@ -10,14 +10,12 @@
    text-align: center;
    margin-bottom: 25px;
 }
-
 .question_answer{
    width: 85%;
    margin: auto;
    border-bottom: 1px solid rgb(222, 222, 222);
    padding: 20px 0px;
 }
-
 .question_answer .topper button{
   background: transparent;
   width: 80%;
@@ -36,7 +34,6 @@
   font-size: 20px;
   font-weight: 600;
 }
-
 .question_answer p{
   width: 90%;
   padding-left: 5%;
@@ -54,13 +51,13 @@
   .question_answer .topper button{
     width: 100%;
   }
-
   .question_answer .topper button h4{
     gap: 10px;
     font-size: 16px;
     font-weight: 500;
     text-align: start;
   }
+  
 }
 
 

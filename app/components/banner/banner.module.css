@@ -73,7 +73,6 @@
     width: 90%;
     margin: auto;
    }
-
   .realState_left  .realDesc .button_btn{
     display: flex;
     flex-direction: column;
@@ -84,7 +83,6 @@
     display: block;
     text-align: center;
   }
-
  .realState_right .realPhoto {
     padding: 30px 20px !important;
     margin: auto;
@@ -99,27 +97,27 @@
     gap: 20px;
     flex-direction: row;
     justify-content: center;
-
   }
+
 }
 
 @media (min-width : 768px) and (max-width: 1020px){
-
   .realState_left .realDesc h1 {
     font-size: 31px;
   }
   .real_state .full_real_box{
     padding: 0px 30px !important;
   }
-
   .realState_right{
     padding-right: 20px !important;
     padding-top: 40px;
   }
+
 }
 
 @media (min-width : 1020px) and (max-width: 1320px){
   .real_state{
      padding: 40px 30px;
   }
+  
 }

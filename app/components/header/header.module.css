@@ -30,8 +30,6 @@
   justify-content: flex-end;
   position: relative;
 }
-
-
 .leftPart2 ul {
   display: flex;
   align-items: center;
@@ -43,13 +41,9 @@
     font-size: 16px;
     font-weight: 500;
 }
-
-
 .leftPart2 ul li.list_menu  {
   margin-right: 40px !important;
-
 }
-
 .leftPart2 ul li button{
   text-align: center;
   color: #fff !important;
@@ -69,8 +63,6 @@
 .leftPart2 input.humba_check{
   display: none;
 }
-
-
 .leftPart2 ul li button.sign-out-btn{
   text-align: center;
   color: #fff !important;
@@ -87,24 +79,23 @@
 
 /****** responsive css ******/
 @media (min-width : 320px) and (max-width: 992px){ 
-  .topPart{
+.topPart{
     display: flex;
     align-items: center;
-  }
-  .header{
+}
+.header{
     padding: 15px 20px !important;
-  }
-  .leftPart1{
+}
+.leftPart1{
     width: 20%;
-  }
-  .leftPart2 {
+}
+.leftPart2 {
      width: 80%;
      position: relative;
      display: flex;
      align-items: center;
-  }
-
-  .leftPart2 span svg{
+}
+.leftPart2 span svg{
     font-size: 29px;
     position: absolute;
     right: 0px;
@@ -115,8 +106,8 @@
     border: 1px solid rgb(145, 145, 145);
     padding: 2px ;
     border-radius: 3px;
-  }
-  .leftPart2 input.humba_check{
+}
+.leftPart2 input.humba_check{
     position: absolute;
     right: 0px;
     top: -13px;
@@ -125,15 +116,12 @@
     opacity: 0;
     display: block;
     cursor: pointer;
-    
-  }
-
-  .leftPart2 input.humba_check:checked ~ ul {
+}
+.leftPart2 input.humba_check:checked ~ ul {
      visibility: visible;
      opacity: 1;
-  }
-
-  .leftPart2 ul {
+}
+.leftPart2 ul {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -148,24 +136,23 @@
     width: 100%;
     border-radius: 4px;
   }
-  .leftPart2 ul li a{
+.leftPart2 ul li a{
    text-align: end !important;
    font-size: 20px;
    font-weight: 500;
-  }
-  .leftPart2 ul li:last-child{
+}
+.leftPart2 ul li:last-child{
     margin-bottom: 15px;
-  }
-  .leftPart2 ul li.list_menu  {
+}
+.leftPart2 ul li.list_menu  {
     margin-right: 0px !important;
-  }
-  .leftPart2 ul li.button_get{
+}
+.leftPart2 ul li.button_get{
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 8px;
-  }
 }
-
+}
 
 
 

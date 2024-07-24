@@ -12,7 +12,6 @@
   position: relative;
   z-index: -1;
 }
-
 .contact h2{
   font-size: 36px;
   font-weight: 600;
@@ -28,7 +27,6 @@
 }
 .contact_form .full_contact_form{
   display: flex;
-
 }
 .contact_form .full_contact_form .contact_left{
   width: 50%;
@@ -79,7 +77,6 @@
   display: block;
   width: 103%;
   padding: 10px 10px;
- 
 }
 .contact_left .form_box form .my_2 select:focus{
   border: 1px solid rgb(57, 14, 211) !important;
@@ -177,9 +174,7 @@
     display: block;
     margin-right: 35px !important;
     overflow: hidden;
-    
   }
-
   .contact_form .full_contact_form .contact_left h3{
     padding: 0px 15px;
     text-align: center;
@@ -199,7 +194,6 @@
   .full_contact_form .contact_right{
     width: 45%;
   }
-
   .contact_form .full_contact_form .contact_left h3{
     padding: 0px 15px;
     text-align: center;
